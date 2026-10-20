@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "questions": [
+  {
+   "id": "deadline",
+   "word": "deadline",
+   "type": "meaning",
+   "prompt": "deadline",
+   "options": [
+    "截止期限",
+    "預算",
+    "會議記錄",
+    "休假"
+   ],
+   "answer": 0,
+   "example": "We need to finish the report before the deadline on Friday.",
+   "exampleZh": "我們需要在週五截止期限前完成報告。"
+  },
+  {
+   "id": "follow up",
+   "word": "follow up",
+   "type": "meaning",
+   "prompt": "follow up",
+   "options": [
+    "放棄",
+    "後續追蹤",
+    "提早下班",
+    "重新開始"
+   ],
+   "answer": 1,
+   "example": "I'll follow up with the client tomorrow morning.",
+   "exampleZh": "我明天早上會跟客戶做後續追蹤。"
+  },
+  {
+   "id": "delay",
+   "word": "delay",
+   "type": "blank",
+   "prompt": "The shipment is ____ due to port congestion.",
+   "options": [
+    "delayed",
+    "delivered",
+    "decided",
+    "designed"
+   ],
+   "answer": 0,
+   "example": "The shipment is delayed due to port congestion; the new ETA is Nov 3.",
+   "exampleZh": "因港口壅塞貨物延誤，新的預計到貨日是 11 月 3 日。"
+  },
+  {
+   "id": "phrase:running late",
+   "word": "phrase:running late",
+   "type": "phrase",
+   "prompt": "情境：你開會會遲到 5 分鐘，最自然的說法是？",
+   "options": [
+    "I'm running about five minutes late.",
+    "I am late five minutes.",
+    "I will be lately five minutes.",
+    "My time is late five minutes."
+   ],
+   "answer": 0,
+   "example": "Sorry, I'm running about five minutes late. Please start without me.",
+   "exampleZh": "抱歉，我大概會晚五分鐘，請先開始。"
+  },
+  {
+   "id": "lead time",
+   "word": "lead time",
+   "type": "meaning",
+   "prompt": "lead time",
+   "options": [
+    "領導時間",
+    "交貨前置時間",
+    "下班時間",
+    "試用期"
+   ],
+   "answer": 1,
+   "example": "The supplier's lead time for this part is six weeks.",
+   "exampleZh": "供應商這個零件的交貨前置時間是六週。"
+  },
+  {
+   "id": "phrase:could you repeat",
+   "word": "phrase:could you repeat",
+   "type": "phrase",
+   "prompt": "情境：主管講太快你沒聽清楚，最禮貌的說法是？",
+   "options": [
+    "What? Again.",
+    "Sorry, could you say that again?",
+    "You speak too fast.",
+    "I don't understand you."
+   ],
+   "answer": 1,
+   "example": "Sorry, could you say that again? I want to make sure I got it right.",
+   "exampleZh": "抱歉，可以再說一次嗎？我想確定我沒理解錯。"
+  },
+  {
+   "id": "postpone",
+   "word": "postpone",
+   "type": "blank",
+   "prompt": "Let's ____ the meeting until next week.",
+   "options": [
+    "postpone",
+    "prepare",
+    "promote",
+    "provide"
+   ],
+   "answer": 0,
+   "example": "Let's postpone the meeting until next week.",
+   "exampleZh": "我們把會議延到下週吧。"
+  },
+  {
+   "id": "inquiry",
+   "word": "inquiry",
+   "type": "blank",
+   "prompt": "Thank you for your ____ about our pricing.",
+   "options": [
+    "inquiry",
+    "injury",
+    "industry",
+    "invoice"
+   ],
+   "answer": 0,
+   "example": "Thank you for your inquiry about our pricing. Please see the attached quote.",
+   "exampleZh": "感謝您詢問我們的價格，請參考附件報價單。"
+  },
+  {
+   "id": "phrase:let me check",
+   "word": "phrase:let me check",
+   "type": "phrase",
+   "prompt": "情境：主管問你一個數字，你需要確認後再回覆，最自然的說法是？",
+   "options": [
+    "I don't know.",
+    "Wait me.",
+    "Let me check and get back to you.",
+    "Maybe tomorrow I know."
+   ],
+   "answer": 2,
+   "example": "Good question. Let me check and get back to you by noon.",
+   "exampleZh": "好問題，我確認一下，中午前回覆你。"
+  },
+  {
+   "id": "on the same page",
+   "word": "on the same page",
+   "type": "meaning",
+   "prompt": "on the same page",
+   "options": [
+    "在同一頁讀書",
+    "看法一致／有共識",
+    "坐在同一排",
+    "同一天出生"
+   ],
+   "answer": 1,
+   "example": "Let's review the plan to make sure we're on the same page.",
+   "exampleZh": "我們再看一次計畫，確保大家有共識。"
+  }
+ ]
+}
