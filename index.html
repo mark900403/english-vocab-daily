@@ -5,10 +5,20 @@ button{display:block;width:100%;padding:14px;margin:8px 0;border:1px solid #ccd;
 .ok{background:#d9f7e3;border-color:#2a8}.bad{background:#fde0e0;border-color:#d44}.main{background:#3b6fe0;color:#fff;text-align:center}
 .bar{height:10px;background:#e3e7f0;border-radius:5px}.bar div{height:100%;background:#3b6fe0;border-radius:5px;transition:.3s}
 nav{display:flex;gap:6px}nav button{text-align:center;padding:10px;font-size:14px}.tag{font-size:12px;background:#ffe9b3;padding:2px 6px;border-radius:6px}
-.ex{background:#f0f4ff;padding:10px;border-radius:8px;margin-top:8px}h2{margin:.3em 0}</style></head><body>
-<nav><button onclick="startQuiz()">今日練習</button><button onclick="showList('wrong')">錯題本</button><button onclick="showList('mastered')">已通過</button></nav>
+.ex{background:#f0f4ff;padding:10px;border-radius:8px;margin-top:8px}h2{margin:.3em 0}.sp{display:inline-block;width:auto;padding:4px 8px;margin:2px;font-size:15px;text-align:center}.opt{display:flex;align-items:center;gap:4px}.opt>button:first-child{flex:1}.sent{cursor:pointer;border-bottom:1px dashed #99a}.sent:active{background:#ffe9b3}</style></head><body>
+<nav><button onclick="startQuiz()">今日練習</button><button onclick="showList('wrong')">錯題本</button><button onclick="showList('mastered')">已通過</button><button onclick="showInterview()">面試練習</button></nav>
 <div id="app" class="card">載入中…</div>
 <script>
+
+let VO=null;const SU='speechSynthesis' in window;
+function pickV(){const v=speechSynthesis.getVoices();VO=v.find(x=>x.lang=='en-US'&&/Samantha|Google/.test(x.name))||v.find(x=>x.lang=='en-US')||v.find(x=>/^en/.test(x.lang))||null}
+if(SU){pickV();speechSynthesis.onvoiceschanged=pickV}
+const TX=[];const tid=t=>{TX.push(t.replace(/^phrase:/,'').replace(/_+/g,'blank'));return TX.length-1};
+function say(n,slow,ev){if(ev)ev.stopPropagation();if(!SU){alert('此瀏覽器不支援語音朗讀，請使用 iPhone Safari 或 Android Chrome。');return}
+ speechSynthesis.cancel();if(!VO)pickV();const u=new SpeechSynthesisUtterance(TX[n]);u.lang='en-US';if(VO)u.voice=VO;u.rate=slow?0.6:0.9;speechSynthesis.speak(u)}
+const spk=t=>{const n=tid(t);return `<button class="sp" onclick="say(${n},0,event)">🔊</button><button class="sp" onclick="say(${n},1,event)">🐢</button>`};
+async function showInterview(){const d=await (await fetch('interview.json?'+Date.now())).json();
+ app.innerHTML='<h2>面試練習</h2><p style="font-size:13px">點虛線句子可單句播放</p>'+d.items.map((x,k)=>`<div class="ex"><b>Q${k+1}. ${x.q}</b> ${spk(x.q)}<br><small>${x.qZh}</small><p>${spk(x.a)}<br>${(x.a.match(/[^.!?]+[.!?]+/g)||[x.a]).map(s=>`<span class="sent" onclick="say(${tid(s.trim())},0)">${s.trim()}</span>`).join(' ')}</p><small>${x.aZh}</small></div>`).join('')}
 const K='vocabState_v1';let S=JSON.parse(localStorage.getItem(K)||'{"wrong":{},"mastered":{}}');const save=()=>localStorage.setItem(K,JSON.stringify(S));
 let day,qs=[],i=0,score=0,answered=false;const $=id=>document.getElementById(id),app=$('app');
 const today=new Date(Date.now()+8*36e5).toISOString().slice(0,10);
@@ -18,16 +28,16 @@ async function startQuiz(){const base=await load();const ids=new Set(base.map(q=
  const rev=shuffle(Object.values(S.wrong).filter(w=>!ids.has(w.q.id))).slice(0,5).map(w=>({...w.q,review:true}));
  qs=shuffle(base.concat(rev)).slice(0,10);if(rev.length){const keep=new Set(qs.map(q=>q.id));const miss=rev.filter(r=>!keep.has(r.id));}
  qs=shuffle([...rev,...shuffle(base).slice(0,10-rev.length)]);i=0;score=0;render()}
-function render(){answered=false;const q=qs[i],w=S.wrong[q.id];
+function render(){TX.length=0;answered=false;const q=qs[i],w=S.wrong[q.id];
  const t=q.type=='meaning'?'選出正確的中文意思':q.type=='blank'?'選出適合填入空格的字':'職場句型';
  app.innerHTML=`<div>第 ${i+1}/${qs.length} 題　｜　得分 ${score}</div><div class="bar"><div style="width:${i/qs.length*100}%"></div></div>
- <p>${t} ${q.review?`<span class="tag">複習 ${w?w.streak:0}/3</span>`:''}</p><h2>${q.prompt}</h2>`+
- q.options.map((o,k)=>`<button id="o${k}" onclick="pick(${k})">${String.fromCharCode(65+k)}. ${o}</button>`).join('')+'<div id="fb"></div>'}
+ <p>${t} ${q.review?`<span class="tag">複習 ${w?w.streak:0}/3</span>`:''}</p><h2>${q.prompt}</h2>${/[a-z]/i.test(q.prompt)?spk(q.prompt):spk(q.word)}`+
+ q.options.map((o,k)=>`<div class="opt"><button id="o${k}" onclick="pick(${k})">${String.fromCharCode(65+k)}. ${o}</button>${/[a-z]{2}/i.test(o)?spk(o):''}</div>`).join('')+'<div id="fb"></div>'}
 function pick(k){if(answered)return;answered=true;const q=qs[i],ok=k==q.answer;$('o'+q.answer).classList.add('ok');if(!ok)$('o'+k).classList.add('bad');
  let msg='';if(ok){score+=100/qs.length;const w=S.wrong[q.id];if(w){w.streak++;if(w.streak>=3){S.mastered[q.id]={q,date:today};delete S.wrong[q.id];msg='🎉 已連續答對 3 次，通過！'}else msg=`複習進度 ${w.streak}/3`}}
  else{S.wrong[q.id]={q,streak:0,date:today};msg='已加入錯題本（需答對 3 次才通過）'}save();
- $('fb').innerHTML=`<p>${ok?'✅ 答對了！':'❌ 答錯了'} ${msg}</p><div class="ex">📝 ${q.example}<br>${q.exampleZh}</div><button class="main" onclick="next()">${i+1<qs.length?'下一題':'看結果'}</button>`}
+ $('fb').innerHTML=`<p>${ok?'✅ 答對了！':'❌ 答錯了'} ${msg}</p><div class="ex">📝 ${q.example} ${spk(q.example)}<br>${q.exampleZh}</div><button class="main" onclick="next()">${i+1<qs.length?'下一題':'看結果'}</button>`}
 function next(){i++;if(i<qs.length)return render();app.innerHTML=`<h2>完成！得分 ${Math.round(score)} / 100</h2><p>題組日期：${day}</p><p>錯題本：${Object.keys(S.wrong).length} 題｜已通過：${Object.keys(S.mastered).length} 題</p><button class="main" onclick="startQuiz()">再練一次</button>`}
-function showList(t){const L=Object.values(S[t]);app.innerHTML=`<h2>${t=='wrong'?'錯題本':'已通過'}（${L.length}）</h2>`+(L.length?L.map(w=>`<div class="ex"><b>${w.q.word.replace('phrase:','')}</b> — ${w.q.options[w.q.answer]} ${t=='wrong'?`<span class="tag">${w.streak}/3</span>`:''}<br>${w.q.example}<br>${w.q.exampleZh}</div>`).join(''):'<p>目前沒有題目</p>')}
+function showList(t){const L=Object.values(S[t]);app.innerHTML=`<h2>${t=='wrong'?'錯題本':'已通過'}（${L.length}）</h2>`+(L.length?L.map(w=>`<div class="ex"><b>${w.q.word.replace('phrase:','')}</b> ${spk(w.q.word)} — ${w.q.options[w.q.answer]} ${t=='wrong'?`<span class="tag">${w.streak}/3</span>`:''}<br>${w.q.example} ${spk(w.q.example)}<br>${w.q.exampleZh}</div>`).join(''):'<p>目前沒有題目</p>')}
 startQuiz();
 </script></body></html>
