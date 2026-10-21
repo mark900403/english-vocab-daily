@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-22",
+ "questions": [
+  {
+   "word": "shipment",
+   "type": "meaning",
+   "prompt": "shipment",
+   "options": [
+    "貨物；一批出貨",
+    "合約",
+    "薪水",
+    "倉庫"
+   ],
+   "answer": 0,
+   "example": "The shipment left the factory yesterday.",
+   "exampleZh": "這批貨昨天已經離開工廠了。",
+   "id": "shipment"
+  },
+  {
+   "word": "supplier",
+   "type": "meaning",
+   "prompt": "supplier",
+   "options": [
+    "客戶",
+    "供應商",
+    "主管",
+    "司機"
+   ],
+   "answer": 1,
+   "example": "Our supplier sent us a new price list.",
+   "exampleZh": "我們的供應商寄給我們新的價目表。",
+   "id": "supplier"
+  },
+  {
+   "word": "unit price",
+   "type": "meaning",
+   "prompt": "unit price",
+   "options": [
+    "運費",
+    "總金額",
+    "單價",
+    "折扣"
+   ],
+   "answer": 2,
+   "example": "What is the unit price if we order 500 pieces?",
+   "exampleZh": "如果我們訂 500 個，單價是多少？",
+   "id": "unit price"
+  },
+  {
+   "word": "purchase order",
+   "type": "meaning",
+   "prompt": "purchase order (PO)",
+   "options": [
+    "退貨單",
+    "收據",
+    "報價單",
+    "採購單"
+   ],
+   "answer": 3,
+   "example": "I have attached the purchase order for your confirmation.",
+   "exampleZh": "我已附上採購單，請您確認。",
+   "id": "purchase order"
+  },
+  {
+   "word": "customs",
+   "type": "meaning",
+   "prompt": "customs",
+   "options": [
+    "海關",
+    "習慣的客人",
+    "倉儲費",
+    "保險"
+   ],
+   "answer": 0,
+   "example": "The goods are still at customs, so delivery will be late.",
+   "exampleZh": "貨物還在海關，所以交貨會延遲。",
+   "id": "customs"
+  },
+  {
+   "word": "payment terms",
+   "type": "meaning",
+   "prompt": "payment terms",
+   "options": [
+    "付款失敗",
+    "付款條件",
+    "付款收據",
+    "付款金額"
+   ],
+   "answer": 1,
+   "example": "Our payment terms are 30 days after the invoice date.",
+   "exampleZh": "我們的付款條件是發票日後 30 天。",
+   "id": "payment terms"
+  },
+  {
+   "word": "sample",
+   "type": "meaning",
+   "prompt": "sample",
+   "options": [
+    "樣品",
+    "簽名",
+    "尺寸",
+    "庫存"
+   ],
+   "answer": 0,
+   "example": "Could you send us a sample before we place the order?",
+   "exampleZh": "我們下訂單前，你可以先寄樣品給我們嗎？",
+   "id": "sample"
+  },
+  {
+   "word": "phrase:look forward",
+   "type": "phrase",
+   "prompt": "情境：Email 結尾，想說「期待您的回覆」，最自然的說法是？",
+   "options": [
+    "I look forward to hearing from you.",
+    "I am look forward to hear you.",
+    "I looking forward your reply.",
+    "I will forward to hear from you."
+   ],
+   "answer": 0,
+   "example": "Thank you for your help. I look forward to hearing from you.",
+   "exampleZh": "謝謝您的協助，期待您的回覆。",
+   "id": "phrase:look forward"
+  },
+  {
+   "word": "phrase:could you update",
+   "type": "phrase",
+   "prompt": "情境：想請廠商告訴你出貨最新狀況，最自然的說法是？",
+   "options": [
+    "You must tell me the status now.",
+    "Could you give me an update on the shipment?",
+    "Please update me shipment how.",
+    "What is happen to the shipment?"
+   ],
+   "answer": 1,
+   "example": "Hi Tom, could you give me an update on the shipment?",
+   "exampleZh": "Tom 你好，可以告訴我出貨的最新狀況嗎？",
+   "id": "phrase:could you update"
+  },
+  {
+   "word": "phrase:i'll get back to you",
+   "type": "phrase",
+   "prompt": "情境：主管問你問題，你需要確認後再回覆，最自然的說法是？",
+   "options": [
+    "I answer you later maybe.",
+    "I will back to you.",
+    "Let me check and get back to you.",
+    "I don't know, ask other people."
+   ],
+   "answer": 2,
+   "example": "Good question. Let me check and get back to you this afternoon.",
+   "exampleZh": "好問題，我確認一下，今天下午回覆你。",
+   "id": "phrase:i'll get back to you"
+  }
+ ]
+}
