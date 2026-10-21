@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21b",
+ "questions": [
+  {
+   "word": "quotation",
+   "type": "meaning",
+   "prompt": "quotation",
+   "options": [
+    "報價單",
+    "發票",
+    "收據",
+    "合約"
+   ],
+   "answer": 0,
+   "example": "Could you send us a quotation for 500 units?",
+   "exampleZh": "可以寄給我們 500 件的報價單嗎？",
+   "id": "quotation"
+  },
+  {
+   "word": "MOQ",
+   "type": "meaning",
+   "prompt": "MOQ (minimum order quantity)",
+   "options": [
+    "最高售價",
+    "最低訂購量",
+    "每月訂單",
+    "主要供應商"
+   ],
+   "answer": 1,
+   "example": "The MOQ for this item is 1,000 pieces.",
+   "exampleZh": "這個品項的最低訂購量是 1,000 件。",
+   "id": "MOQ"
+  },
+  {
+   "word": "ETA",
+   "type": "blank",
+   "prompt": "What's the ____ for the shipment? We need it by Friday.",
+   "options": [
+    "ETA",
+    "CEO",
+    "FAQ",
+    "VIP"
+   ],
+   "answer": 0,
+   "example": "What's the ETA for the shipment? We need it by Friday.",
+   "exampleZh": "這批貨預計何時到？我們週五前需要。",
+   "id": "ETA"
+  },
+  {
+   "word": "invoice",
+   "type": "meaning",
+   "prompt": "invoice",
+   "options": [
+    "邀請函",
+    "發票／請款單",
+    "庫存",
+    "樣品"
+   ],
+   "answer": 1,
+   "example": "Please attach the invoice to your email.",
+   "exampleZh": "請在 email 附上發票。",
+   "id": "invoice"
+  },
+  {
+   "word": "in stock",
+   "type": "blank",
+   "prompt": "Is this item ____, or do we need to wait?",
+   "options": [
+    "in stock",
+    "in charge",
+    "in time",
+    "in person"
+   ],
+   "answer": 0,
+   "example": "Is this item in stock, or do we need to wait?",
+   "exampleZh": "這個品項有現貨嗎？還是需要等？",
+   "id": "in stock"
+  },
+  {
+   "word": "expedite",
+   "type": "blank",
+   "prompt": "Can you ____ the order? It's urgent.",
+   "options": [
+    "expedite",
+    "expire",
+    "explain",
+    "export"
+   ],
+   "answer": 0,
+   "example": "Can you expedite the order? It's urgent for our warehouse.",
+   "exampleZh": "可以加急處理這筆訂單嗎？倉庫急需。",
+   "id": "expedite"
+  },
+  {
+   "word": "backorder",
+   "type": "meaning",
+   "prompt": "backorder",
+   "options": [
+    "退貨",
+    "缺貨待補訂單",
+    "重複訂單",
+    "後門"
+   ],
+   "answer": 1,
+   "example": "Two items are on backorder and will ship next week.",
+   "exampleZh": "有兩個品項缺貨待補，下週出貨。",
+   "id": "backorder"
+  },
+  {
+   "word": "phrase:attached",
+   "type": "phrase",
+   "prompt": "情境：Email 中要說「附件是更新後的報價」，最自然的是？",
+   "options": [
+    "Please find attached the updated quote.",
+    "Attach is new quote please see.",
+    "I attached you the quote new.",
+    "The quote is attaching."
+   ],
+   "answer": 0,
+   "example": "Hi Tom, please find attached the updated quote.",
+   "exampleZh": "Tom 你好，附件是更新後的報價。",
+   "id": "phrase:attached"
+  },
+  {
+   "word": "phrase:confirm by",
+   "type": "phrase",
+   "prompt": "情境：請廠商週三前確認交期，最自然的是？",
+   "options": [
+    "You must tell me Wednesday.",
+    "Could you please confirm the delivery date by Wednesday?",
+    "Delivery date Wednesday confirm.",
+    "Please confirming date at Wednesday."
+   ],
+   "answer": 1,
+   "example": "Could you please confirm the delivery date by Wednesday?",
+   "exampleZh": "可以請您在週三前確認交貨日期嗎？",
+   "id": "phrase:confirm by"
+  },
+  {
+   "word": "phrase:sorry for the delay",
+   "type": "phrase",
+   "prompt": "情境：你晚回廠商的信，開頭最自然的是？",
+   "options": [
+    "Sorry I am slow.",
+    "Delay is sorry.",
+    "Sorry for the late reply.",
+    "I reply late, sorry you."
+   ],
+   "answer": 2,
+   "example": "Sorry for the late reply. Here are the details you asked for.",
+   "exampleZh": "抱歉晚回覆，以下是您要的資料。",
+   "id": "phrase:sorry for the delay"
+  }
+ ]
+}

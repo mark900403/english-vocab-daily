@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Usage: python3 add_day.py new.json [YYYY-MM-DD]
+"""Usage: python3 add_day.py new.json [YYYY-MM-DD]  (date defaults to Taipei today; if that day exists, saves as YYYY-MM-DDb, c...)
 Theme: workplace + global supply chain vendors (inquiries, quotes, lead times, MOQ, shipping delays, ETA, invoices, reading emails). Include ~3 type:"phrase" items (workplace situation -> most natural sentence; word="phrase:<key>").
 new.json = {"questions":[...10 items same schema as questions/2026-10-21.json...]}
 Validates: 10 questions, 4 options, answer 0-3, no word reused from earlier days. Writes questions/DATE.json and updates manifest.json.
@@ -9,7 +9,10 @@ D=os.path.join(os.path.dirname(os.path.abspath(__file__)),'questions')
 m=json.load(open(f'{D}/manifest.json'))
 used={q['word'].lower() for d in m['days'] for q in json.load(open(f'{D}/{d}.json'))['questions']}
 if sys.argv[1]=='--used': print('\n'.join(sorted(used))); sys.exit()
-date=sys.argv[2] if len(sys.argv)>2 else datetime.date.today().isoformat()
+date=sys.argv[2] if len(sys.argv)>2 else (datetime.datetime.utcnow()+datetime.timedelta(hours=8)).date().isoformat()
+if os.path.exists(f'{D}/{date}.json'):  # extra set same day -> 2026-10-21b, c...
+    for c in 'bcdefgh':
+        if not os.path.exists(f'{D}/{date}{c}.json'): date+=c;break
 qs=json.load(open(sys.argv[1]))['questions']
 assert len(qs)==10,'need 10'
 for q in qs:
