@@ -25,7 +25,7 @@ const today=new Date(Date.now()+8*36e5).toISOString().slice(0,10);
 function shuffle(a){for(let j=a.length-1;j>0;j--){const k=Math.random()*(j+1)|0;[a[j],a[k]]=[a[k],a[j]]}return a}
 async function load(){const m=await (await fetch('questions/manifest.json?v='+Date.now(),{cache:'no-store'})).json();const ds=m.days.filter(d=>d.slice(0,10)<=today).sort();day=ds.length?ds[ds.length-1]:m.days[0];return (await (await fetch(`questions/${day}.json?v=${Date.now()}`,{cache:'no-store'})).json()).questions}
 async function startQuiz(){app.innerHTML='載入中…';try{const base=await load();const ids=new Set(base.map(q=>q.id));
- const rev=shuffle(Object.values(S.wrong).filter(w=>!ids.has(w.q.id))).slice(0,5).map(w=>({...w.q,review:true}));
+ const rev=shuffle(Object.values(S.wrong).filter(w=>!ids.has(w.q.id)&&w.last!==today)).slice(0,5).map(w=>({...w.q,review:true}));
  qs=shuffle(base.concat(rev)).slice(0,10);if(rev.length){const keep=new Set(qs.map(q=>q.id));const miss=rev.filter(r=>!keep.has(r.id));}
  qs=shuffle([...rev,...shuffle(base).slice(0,10-rev.length)]);i=0;score=0;const dn=(S.done||{})[day];if(dn){app.innerHTML=`<h2>題組 ${day} 已完成</h2><p>上次得分 ${dn} / 100</p><button class="main" onclick="render()">再練一次</button><button onclick="showList('wrong')">複習錯題本</button>`;return}render()}catch(e){app.innerHTML='題目載入失敗，請檢查網路後<button class="main" onclick="startQuiz()">重新載入</button>'}}
 function render(){TX.length=0;answered=false;const q=qs[i],w=S.wrong[q.id];
@@ -34,8 +34,10 @@ function render(){TX.length=0;answered=false;const q=qs[i],w=S.wrong[q.id];
  <p>${t} ${q.review?`<span class="tag">複習 ${w?w.streak:0}/3</span>`:''}</p><div style="font-size:12px;color:#888">題組 ${day}</div><h2>${q.prompt}</h2>${/[a-z]/i.test(q.prompt)?spk(q.prompt):spk(q.word)}`+
  q.options.map((o,k)=>`<div class="opt"><button id="o${k}" onclick="pick(${k})">${String.fromCharCode(65+k)}. ${o}</button>${/[a-z]{2}/i.test(o)?spk(o):''}</div>`).join('')+'<div id="fb"></div>'}
 function pick(k){if(answered)return;answered=true;const q=qs[i],ok=k==q.answer;$('o'+q.answer).classList.add('ok');if(!ok)$('o'+k).classList.add('bad');
- let msg='';if(ok){score+=100/qs.length;const w=S.wrong[q.id];if(w){w.streak++;if(w.streak>=3){S.mastered[q.id]={q,date:today};delete S.wrong[q.id];msg='🎉 已連續答對 3 次，通過！'}else msg=`複習進度 ${w.streak}/3`}}
- else{S.wrong[q.id]={q,streak:0,date:today};msg='已加入錯題本（需答對 3 次才通過）'}save();
+ let msg='';const w=S.wrong[q.id];
+ if(w){if(w.last===today)msg=ok?'（今天已複習過此題，明天再計次）':'';else{w.last=today;if(ok){w.streak++;if(w.streak>=3){S.mastered[q.id]={q,date:today};delete S.wrong[q.id];msg='🎉 已在 3 個不同日子答對，通過！'}else msg=`複習進度 ${w.streak}/3（每天最多計 1 次）`}else{w.streak=0;msg='複習答錯，進度歸零 0/3'}}}
+ else if(!ok){S.wrong[q.id]={q,streak:0,date:today,last:today};msg='已加入錯題本（需在 3 個不同日子答對才通過）'}
+ if(ok)score+=100/qs.length;save();
  $('fb').innerHTML=`<p>${ok?'✅ 答對了！':'❌ 答錯了'} ${msg}</p><div class="ex">📝 ${q.example} ${spk(q.example)}<br>${q.exampleZh}</div><button class="main" onclick="next()">${i+1<qs.length?'下一題':'看結果'}</button>`}
 function next(){i++;if(i<qs.length)return render();S.done=S.done||{};S.done[day]=Math.round(score);save();app.innerHTML=`<h2>完成！得分 ${Math.round(score)} / 100</h2><p>題組日期：${day}</p><p>錯題本：${Object.keys(S.wrong).length} 題｜已通過：${Object.keys(S.mastered).length} 題</p><button class="main" onclick="startQuiz()">再練一次</button>`}
 function showList(t){const L=Object.values(S[t]);app.innerHTML=`<h2>${t=='wrong'?'錯題本':'已通過'}（${L.length}）</h2>`+(L.length?L.map(w=>`<div class="ex"><b>${w.q.word.replace('phrase:','')}</b> ${spk(w.q.word)} — ${w.q.options[w.q.answer]} ${t=='wrong'?`<span class="tag">${w.streak}/3</span>`:''}<br>${w.q.example} ${spk(w.q.example)}<br>${w.q.exampleZh}</div>`).join(''):'<p>目前沒有題目</p>')}
