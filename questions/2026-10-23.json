@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-23",
+ "questions": [
+  {
+   "word": "discount",
+   "type": "meaning",
+   "prompt": "discount",
+   "options": [
+    "罰款",
+    "折扣",
+    "稅金",
+    "訂金"
+   ],
+   "answer": 1,
+   "example": "Can you give us a 5% discount for a large order?",
+   "exampleZh": "大量訂購的話，可以給我們 5% 的折扣嗎？",
+   "id": "discount"
+  },
+  {
+   "word": "warehouse",
+   "type": "meaning",
+   "prompt": "warehouse",
+   "options": [
+    "辦公室",
+    "工廠",
+    "倉庫",
+    "商店"
+   ],
+   "answer": 2,
+   "example": "The goods will arrive at our warehouse on Monday.",
+   "exampleZh": "這批貨星期一會送到我們的倉庫。",
+   "id": "warehouse"
+  },
+  {
+   "word": "tracking number",
+   "type": "meaning",
+   "prompt": "tracking number",
+   "options": [
+    "追蹤號碼（貨運單號）",
+    "電話號碼",
+    "訂單金額",
+    "員工編號"
+   ],
+   "answer": 0,
+   "example": "Could you send me the tracking number for this order?",
+   "exampleZh": "可以給我這筆訂單的追蹤號碼嗎？",
+   "id": "tracking number"
+  },
+  {
+   "word": "specification",
+   "type": "meaning",
+   "prompt": "specification",
+   "options": [
+    "簽名",
+    "規格",
+    "收據",
+    "價目表"
+   ],
+   "answer": 1,
+   "example": "Please check the specification before you place the order.",
+   "exampleZh": "下單前請先確認規格。",
+   "id": "specification"
+  },
+  {
+   "word": "damaged",
+   "type": "blank",
+   "prompt": "Some boxes were ____ during shipping, so we need a replacement.",
+   "options": [
+    "damaged",
+    "decided",
+    "delivered",
+    "designed"
+   ],
+   "answer": 0,
+   "example": "Some boxes were damaged during shipping, so we need a replacement.",
+   "exampleZh": "有幾箱在運送途中損壞了，所以我們需要換貨。",
+   "id": "damaged"
+  },
+  {
+   "word": "approve",
+   "type": "blank",
+   "prompt": "My manager needs to ____ the quotation first.",
+   "options": [
+    "arrive",
+    "approve",
+    "apply",
+    "appear"
+   ],
+   "answer": 1,
+   "example": "My manager needs to approve the quotation first. I will reply tomorrow.",
+   "exampleZh": "我的主管需要先核准報價單，我明天回覆你。",
+   "id": "approve"
+  },
+  {
+   "word": "available",
+   "type": "blank",
+   "prompt": "Is this item ____ now, or do we need to wait?",
+   "options": [
+    "valuable",
+    "avoidable",
+    "available",
+    "advisable"
+   ],
+   "answer": 2,
+   "example": "Is this item available now, or do we need to wait two weeks?",
+   "exampleZh": "這個品項現在有貨嗎？還是我們要等兩週？",
+   "id": "available"
+  },
+  {
+   "word": "phrase:please find attached",
+   "type": "phrase",
+   "prompt": "情境：Email 裡要說「附件是更新後的訂單」，最自然的說法是？",
+   "options": [
+    "Attach is the new order.",
+    "Please find attached the updated order.",
+    "I attaching the order for you.",
+    "The order is attach in email."
+   ],
+   "answer": 1,
+   "example": "Hi Lisa, please find attached the updated purchase order.",
+   "exampleZh": "Lisa 你好，附件是更新後的採購單。",
+   "id": "phrase:please find attached"
+  },
+  {
+   "word": "phrase:can we schedule a call",
+   "type": "phrase",
+   "prompt": "情境：想約廠商開個電話會議討論交期，最自然的說法是？",
+   "options": [
+    "Can we schedule a call to discuss the lead time?",
+    "We call when? Talk lead time.",
+    "You must call me today.",
+    "Can we schedule call for discuss?"
+   ],
+   "answer": 0,
+   "example": "Can we schedule a call this week to discuss the lead time?",
+   "exampleZh": "我們這週可以約個電話討論交期嗎？",
+   "id": "phrase:can we schedule a call"
+  },
+  {
+   "word": "phrase:thanks for your quick reply",
+   "type": "phrase",
+   "prompt": "情境：廠商很快回信，你想先道謝，最自然的說法是？",
+   "options": [
+    "Thank you reply fast.",
+    "Thanks for you quickly answer.",
+    "Thanks for your quick reply.",
+    "Thank for reply me quick."
+   ],
+   "answer": 2,
+   "example": "Thanks for your quick reply. The new price looks good to us.",
+   "exampleZh": "謝謝你這麼快回覆，新的價格我們覺得可以。",
+   "id": "phrase:thanks for your quick reply"
+  }
+ ]
+}
