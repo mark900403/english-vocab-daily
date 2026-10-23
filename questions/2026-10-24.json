@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-24",
+ "questions": [
+  {
+   "word": "freight",
+   "type": "meaning",
+   "prompt": "freight",
+   "options": [
+    "運費／貨運",
+    "包裝",
+    "保險",
+    "倉租"
+   ],
+   "answer": 0,
+   "example": "Does the price include freight to Taiwan?",
+   "exampleZh": "這個價格有包含運到台灣的運費嗎？",
+   "id": "freight"
+  },
+  {
+   "word": "pallet",
+   "type": "meaning",
+   "prompt": "pallet",
+   "options": [
+    "紙箱",
+    "棧板",
+    "貨櫃",
+    "推車"
+   ],
+   "answer": 1,
+   "example": "Please put no more than 40 cartons on each pallet.",
+   "exampleZh": "每個棧板請不要放超過 40 箱。",
+   "id": "pallet"
+  },
+  {
+   "word": "quantity",
+   "type": "blank",
+   "prompt": "What is the minimum order ____ for this item?",
+   "options": [
+    "quality",
+    "quantity",
+    "question",
+    "quarter"
+   ],
+   "answer": 1,
+   "example": "What is the minimum order quantity for this item?",
+   "exampleZh": "這個品項的最低訂購數量是多少？",
+   "id": "quantity"
+  },
+  {
+   "word": "deposit",
+   "type": "meaning",
+   "prompt": "deposit",
+   "options": [
+    "尾款",
+    "退款",
+    "訂金",
+    "手續費"
+   ],
+   "answer": 2,
+   "example": "We need to pay a 30% deposit before production starts.",
+   "exampleZh": "開始生產前，我們需要先付 30% 的訂金。",
+   "id": "deposit"
+  },
+  {
+   "word": "receipt",
+   "type": "blank",
+   "prompt": "Please confirm ____ of the payment when you get it.",
+   "options": [
+    "recipe",
+    "receipt",
+    "receive",
+    "reason"
+   ],
+   "answer": 1,
+   "example": "Please confirm receipt of the payment when you get it.",
+   "exampleZh": "收到款項後，請確認已收到。",
+   "id": "receipt"
+  },
+  {
+   "word": "packing list",
+   "type": "meaning",
+   "prompt": "packing list",
+   "options": [
+    "裝箱單",
+    "報價單",
+    "價目表",
+    "待辦清單"
+   ],
+   "answer": 0,
+   "example": "The packing list shows 12 cartons, but we only received 10.",
+   "exampleZh": "裝箱單上寫 12 箱，但我們只收到 10 箱。",
+   "id": "packing list"
+  },
+  {
+   "word": "revised",
+   "type": "blank",
+   "prompt": "Could you send us a ____ quotation with the new price?",
+   "options": [
+    "revised",
+    "returned",
+    "removed",
+    "reviewed"
+   ],
+   "answer": 0,
+   "example": "Could you send us a revised quotation with the new price?",
+   "exampleZh": "可以寄給我們一份有新價格的修改版報價單嗎？",
+   "id": "revised"
+  },
+  {
+   "word": "phrase:please advise",
+   "type": "phrase",
+   "prompt": "情境：Email 裡想請供應商告訴你新的交期，最自然的說法是？",
+   "options": [
+    "Please advise the new delivery date.",
+    "You advise me new date please.",
+    "Please advice me date new.",
+    "Tell me date, advise."
+   ],
+   "answer": 0,
+   "example": "The shipment is delayed. Please advise the new delivery date.",
+   "exampleZh": "這批貨延遲了，請告知新的交貨日期。",
+   "id": "phrase:please advise"
+  },
+  {
+   "word": "phrase:as discussed",
+   "type": "phrase",
+   "prompt": "情境：會議後寄信，想說「如同我們討論過的」，最自然的開頭是？",
+   "options": [
+    "Like we discuss,",
+    "As discussed in our meeting,",
+    "Same as discussing,",
+    "We discussed as,"
+   ],
+   "answer": 1,
+   "example": "As discussed in our meeting, we will place the order next week.",
+   "exampleZh": "如同我們在會議中討論的，我們下週會下單。",
+   "id": "phrase:as discussed"
+  },
+  {
+   "word": "phrase:let me know if you have any questions",
+   "type": "phrase",
+   "prompt": "情境：Email 結尾想說「有任何問題請告訴我」，最自然的說法是？",
+   "options": [
+    "If question, tell me.",
+    "Let me know if you have any questions.",
+    "You have question, let me know it.",
+    "Any question let know me."
+   ],
+   "answer": 1,
+   "example": "I attached the new schedule. Let me know if you have any questions.",
+   "exampleZh": "我附上了新的時程表，有任何問題請告訴我。",
+   "id": "phrase:let me know if you have any questions"
+  }
+ ]
+}
