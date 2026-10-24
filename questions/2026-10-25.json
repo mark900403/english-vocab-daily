@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-25",
+ "questions": [
+  {
+   "word": "container",
+   "type": "meaning",
+   "prompt": "container",
+   "options": [
+    "棧板",
+    "貨櫃",
+    "紙箱",
+    "倉庫"
+   ],
+   "answer": 1,
+   "example": "We need one 40-foot container for this order.",
+   "exampleZh": "這張訂單我們需要一個 40 呎貨櫃。",
+   "id": "container"
+  },
+  {
+   "word": "consignee",
+   "type": "meaning",
+   "prompt": "consignee",
+   "options": [
+    "寄件人",
+    "報關行",
+    "收貨人",
+    "業務代表"
+   ],
+   "answer": 2,
+   "example": "Please write our company name as the consignee on the documents.",
+   "exampleZh": "請在文件上把我們公司寫成收貨人。",
+   "id": "consignee"
+  },
+  {
+   "word": "warranty",
+   "type": "meaning",
+   "prompt": "warranty",
+   "options": [
+    "保固",
+    "折扣",
+    "押金",
+    "合約"
+   ],
+   "answer": 0,
+   "example": "This machine comes with a two-year warranty.",
+   "exampleZh": "這台機器有兩年保固。",
+   "id": "warranty"
+  },
+  {
+   "word": "defective",
+   "type": "meaning",
+   "prompt": "defective",
+   "options": [
+    "過期的",
+    "缺貨的",
+    "延遲的",
+    "有瑕疵的"
+   ],
+   "answer": 3,
+   "example": "Five of the boxes were defective, so we sent them back.",
+   "exampleZh": "有五箱是瑕疵品，所以我們退回去了。",
+   "id": "defective"
+  },
+  {
+   "word": "overdue",
+   "type": "meaning",
+   "prompt": "overdue",
+   "options": [
+    "逾期的",
+    "提早的",
+    "已付款的",
+    "已取消的"
+   ],
+   "answer": 0,
+   "example": "This invoice is two weeks overdue. Please make the payment soon.",
+   "exampleZh": "這張發票已經逾期兩週，請盡快付款。",
+   "id": "overdue"
+  },
+  {
+   "word": "negotiate",
+   "type": "meaning",
+   "prompt": "negotiate",
+   "options": [
+    "抱怨",
+    "協商／議價",
+    "簽收",
+    "確認"
+   ],
+   "answer": 1,
+   "example": "We negotiated a lower unit price with the supplier.",
+   "exampleZh": "我們跟供應商談到了比較低的單價。",
+   "id": "negotiate"
+  },
+  {
+   "word": "bill of lading",
+   "type": "meaning",
+   "prompt": "bill of lading (B/L)",
+   "options": [
+    "裝箱單",
+    "商業發票",
+    "提單",
+    "報價單"
+   ],
+   "answer": 2,
+   "example": "Could you send us a copy of the bill of lading?",
+   "exampleZh": "可以寄一份提單副本給我們嗎？",
+   "id": "bill of lading"
+  },
+  {
+   "word": "phrase:just to confirm",
+   "type": "phrase",
+   "prompt": "情境：想跟供應商再確認一次交貨日期，最自然的說法是？",
+   "options": [
+    "Confirm again, the date is Friday?",
+    "Just to confirm, the delivery date is Friday, right?",
+    "I confirm you the date Friday.",
+    "The date Friday is confirm?"
+   ],
+   "answer": 1,
+   "example": "Just to confirm, the delivery date is Friday, right?",
+   "exampleZh": "再確認一下，交貨日是星期五，對嗎？",
+   "id": "phrase:just to confirm"
+  },
+  {
+   "word": "phrase:we would like to place an order",
+   "type": "phrase",
+   "prompt": "情境：要跟廠商說你們想下單，最自然的說法是？",
+   "options": [
+    "We want order you 500 pieces.",
+    "We are order 500 pieces.",
+    "Please order us 500 pieces.",
+    "We would like to place an order for 500 pieces."
+   ],
+   "answer": 3,
+   "example": "We would like to place an order for 500 pieces.",
+   "exampleZh": "我們想下一張 500 個的訂單。",
+   "id": "phrase:we would like to place an order"
+  },
+  {
+   "word": "phrase:could you send me",
+   "type": "phrase",
+   "prompt": "情境：想請對方寄最新的報價單給你，最自然的說法是？",
+   "options": [
+    "Could you send me the latest quotation?",
+    "You send me quotation new.",
+    "Send quotation to me can?",
+    "Could you sent me the last quotation?"
+   ],
+   "answer": 0,
+   "example": "Could you send me the latest quotation by Wednesday?",
+   "exampleZh": "可以在星期三前寄最新的報價單給我嗎？",
+   "id": "phrase:could you send me"
+  }
+ ]
+}
