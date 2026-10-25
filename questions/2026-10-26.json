@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-26",
+ "questions": [
+  {
+   "word": "incoterms",
+   "type": "meaning",
+   "prompt": "Incoterms",
+   "options": [
+    "國際貿易條件",
+    "進口關稅",
+    "報關文件",
+    "付款期限"
+   ],
+   "answer": 0,
+   "example": "Which Incoterms will you use for this shipment, FOB or CIF?",
+   "exampleZh": "這批貨你們會用哪種國際貿易條件，FOB 還是 CIF？",
+   "id": "incoterms"
+  },
+  {
+   "word": "origin",
+   "type": "meaning",
+   "prompt": "origin (country of origin)",
+   "options": [
+    "目的地",
+    "原產地",
+    "轉運港",
+    "倉儲地"
+   ],
+   "answer": 1,
+   "example": "Please show the country of origin on the invoice.",
+   "exampleZh": "請在發票上標明原產地。",
+   "id": "origin"
+  },
+  {
+   "word": "partial shipment",
+   "type": "meaning",
+   "prompt": "partial shipment",
+   "options": [
+    "整批出貨",
+    "退貨",
+    "分批出貨",
+    "延後出貨"
+   ],
+   "answer": 2,
+   "example": "Can you make a partial shipment first and send the rest next week?",
+   "exampleZh": "可以先分批出一部分，剩下的下週再寄嗎？",
+   "id": "partial shipment"
+  },
+  {
+   "word": "cancel",
+   "type": "meaning",
+   "prompt": "cancel",
+   "options": [
+    "確認",
+    "修改",
+    "延期",
+    "取消"
+   ],
+   "answer": 3,
+   "example": "We had to cancel the order because the price was too high.",
+   "exampleZh": "因為價格太高，我們只好取消訂單。",
+   "id": "cancel"
+  },
+  {
+   "word": "budget",
+   "type": "meaning",
+   "prompt": "budget",
+   "options": [
+    "預算",
+    "報價",
+    "帳單",
+    "利潤"
+   ],
+   "answer": 0,
+   "example": "This quote is over our budget. Can you give us a better price?",
+   "exampleZh": "這個報價超出我們的預算，可以給更好的價格嗎？",
+   "id": "budget"
+  },
+  {
+   "word": "refund",
+   "type": "meaning",
+   "prompt": "refund",
+   "options": [
+    "訂金",
+    "退款",
+    "折扣",
+    "罰款"
+   ],
+   "answer": 1,
+   "example": "The items were damaged, so we asked for a full refund.",
+   "exampleZh": "商品損壞了，所以我們要求全額退款。",
+   "id": "refund"
+  },
+  {
+   "word": "replacement",
+   "type": "meaning",
+   "prompt": "replacement",
+   "options": [
+    "補貨訂單",
+    "維修",
+    "替換品",
+    "樣品"
+   ],
+   "answer": 2,
+   "example": "Please send a replacement for the broken parts as soon as possible.",
+   "exampleZh": "請盡快寄送損壞零件的替換品。",
+   "id": "replacement"
+  },
+  {
+   "word": "phrase:could you clarify",
+   "type": "phrase",
+   "prompt": "情境：看不懂供應商信裡的某個條款，想請對方說明清楚，最自然的說法是？",
+   "options": [
+    "I not understand, explain.",
+    "Could you clarify what you mean by this term?",
+    "What is mean this term?",
+    "You clarify me this term please."
+   ],
+   "answer": 1,
+   "example": "Could you clarify what you mean by \"net 30\"?",
+   "exampleZh": "可以說明一下你說的「月結 30 天」是什麼意思嗎？",
+   "id": "phrase:could you clarify"
+  },
+  {
+   "word": "phrase:we haven't received",
+   "type": "phrase",
+   "prompt": "情境：貨到了預定日期還沒收到，要寫信問廠商，最自然的說法是？",
+   "options": [
+    "We didn't receive yet the goods.",
+    "The goods is not come.",
+    "We haven't received the goods yet. Could you check the status?",
+    "We not receive goods, check."
+   ],
+   "answer": 2,
+   "example": "We haven't received the goods yet. Could you check the status?",
+   "exampleZh": "我們還沒收到貨，可以幫忙查一下狀態嗎？",
+   "id": "phrase:we haven't received"
+  },
+  {
+   "word": "phrase:thank you for your patience",
+   "type": "phrase",
+   "prompt": "情境：事情拖了一陣子終於處理好，想感謝對方耐心等待，最自然的說法是？",
+   "options": [
+    "Thank you for your patience.",
+    "Thanks your waiting.",
+    "Thank you for patient.",
+    "Sorry you wait long, thank."
+   ],
+   "answer": 0,
+   "example": "Thank you for your patience. The new parts will arrive tomorrow.",
+   "exampleZh": "謝謝您耐心等候，新零件明天會到。",
+   "id": "phrase:thank you for your patience"
+  }
+ ]
+}
