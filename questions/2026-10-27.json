@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-27",
+ "questions": [
+  {
+   "word": "forwarder",
+   "type": "meaning",
+   "prompt": "freight forwarder",
+   "options": [
+    "貨運承攬業者",
+    "倉庫管理員",
+    "報關稅率",
+    "收貨人"
+   ],
+   "answer": 0,
+   "example": "Our freight forwarder will pick up the goods on Friday.",
+   "exampleZh": "我們的貨運承攬業者會在星期五來提貨。",
+   "id": "forwarder"
+  },
+  {
+   "word": "backlog",
+   "type": "meaning",
+   "prompt": "backlog",
+   "options": [
+    "退貨",
+    "積壓未處理的訂單",
+    "預付款",
+    "樣品"
+   ],
+   "answer": 1,
+   "example": "The factory has a big backlog, so the lead time is longer this month.",
+   "exampleZh": "工廠訂單積壓很多，所以這個月交期比較長。",
+   "id": "backlog"
+  },
+  {
+   "word": "surcharge",
+   "type": "meaning",
+   "prompt": "surcharge",
+   "options": [
+    "折扣",
+    "退款",
+    "附加費",
+    "訂金"
+   ],
+   "answer": 2,
+   "example": "There is a fuel surcharge on this shipment.",
+   "exampleZh": "這批貨有燃油附加費。",
+   "id": "surcharge"
+  },
+  {
+   "word": "bulk order",
+   "type": "meaning",
+   "prompt": "bulk order",
+   "options": [
+    "試用訂單",
+    "取消的訂單",
+    "急件",
+    "大量訂購"
+   ],
+   "answer": 3,
+   "example": "Can you give us a better price for a bulk order?",
+   "exampleZh": "大量訂購的話可以給我們比較好的價格嗎？",
+   "id": "bulk order"
+  },
+  {
+   "word": "valid",
+   "type": "meaning",
+   "prompt": "valid (This quote is valid for 30 days.)",
+   "options": [
+    "有效的",
+    "過期的",
+    "修改過的",
+    "免費的"
+   ],
+   "answer": 0,
+   "example": "This quotation is valid for 30 days.",
+   "exampleZh": "這份報價有效期為 30 天。",
+   "id": "valid"
+  },
+  {
+   "word": "dispatch",
+   "type": "meaning",
+   "prompt": "dispatch",
+   "options": [
+    "收到",
+    "發貨／寄出",
+    "檢查",
+    "包裝"
+   ],
+   "answer": 1,
+   "example": "The order was dispatched yesterday.",
+   "exampleZh": "這張訂單昨天已經出貨了。",
+   "id": "dispatch"
+  },
+  {
+   "word": "inspection",
+   "type": "meaning",
+   "prompt": "inspection",
+   "options": [
+    "保險",
+    "發票",
+    "檢驗",
+    "報價"
+   ],
+   "answer": 2,
+   "example": "We need a quality inspection before shipment.",
+   "exampleZh": "出貨前我們需要做品質檢驗。",
+   "id": "inspection"
+  },
+  {
+   "word": "phrase:could you speed up",
+   "type": "phrase",
+   "prompt": "情境：倉庫急需這批耗材，想請廠商加快出貨，最自然的說法是？",
+   "options": [
+    "You must fast send.",
+    "Speed the goods please now.",
+    "Why you so slow?",
+    "We need these items urgently. Could you speed up the delivery?"
+   ],
+   "answer": 3,
+   "example": "We need these items urgently. Could you speed up the delivery?",
+   "exampleZh": "我們急需這些品項，可以加快交貨嗎？",
+   "id": "phrase:could you speed up"
+  },
+  {
+   "word": "phrase:what is the status",
+   "type": "phrase",
+   "prompt": "情境：想詢問上週下的訂單目前進度，最自然的說法是？",
+   "options": [
+    "Could you let me know the status of our order from last week?",
+    "Where is order? Tell me.",
+    "Our order last week how is?",
+    "You know our order status?"
+   ],
+   "answer": 0,
+   "example": "Could you let me know the status of our order from last week?",
+   "exampleZh": "可以告訴我上週那張訂單目前的進度嗎？",
+   "id": "phrase:what is the status"
+  },
+  {
+   "word": "phrase:i'm afraid",
+   "type": "phrase",
+   "prompt": "情境：要委婉告訴廠商報價超出預算，最自然的說法是？",
+   "options": [
+    "Your price is too bad.",
+    "I'm afraid the price is over our budget.",
+    "Price no good, change.",
+    "We are not like your price."
+   ],
+   "answer": 1,
+   "example": "I'm afraid the price is over our budget. Is there any room for discount?",
+   "exampleZh": "恐怕這個價格超出我們的預算了，還有折扣空間嗎？",
+   "id": "phrase:i'm afraid"
+  }
+ ]
+}
