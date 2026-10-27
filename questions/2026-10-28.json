@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-28",
+ "questions": [
+  {
+   "word": "port of loading",
+   "type": "meaning",
+   "prompt": "port of loading",
+   "options": [
+    "卸貨港",
+    "裝貨港（起運港）",
+    "保稅倉庫",
+    "轉運中心"
+   ],
+   "answer": 1,
+   "example": "The port of loading is Shanghai, and the goods will arrive in Keelung.",
+   "exampleZh": "裝貨港是上海，貨物會抵達基隆。",
+   "id": "port of loading"
+  },
+  {
+   "word": "price list",
+   "type": "meaning",
+   "prompt": "price list",
+   "options": [
+    "價目表",
+    "付款收據",
+    "裝箱單",
+    "訂單確認"
+   ],
+   "answer": 0,
+   "example": "Could you send us your latest price list for cleaning supplies?",
+   "exampleZh": "可以寄給我們最新的清潔用品價目表嗎？",
+   "id": "price list"
+  },
+  {
+   "word": "order confirmation",
+   "type": "meaning",
+   "prompt": "order confirmation",
+   "options": [
+    "取消訂單",
+    "出貨通知",
+    "訂單確認",
+    "報價請求"
+   ],
+   "answer": 2,
+   "example": "We received the order confirmation from the supplier this morning.",
+   "exampleZh": "我們今天早上收到了供應商的訂單確認。",
+   "id": "order confirmation"
+  },
+  {
+   "word": "out of stock",
+   "type": "meaning",
+   "prompt": "out of stock",
+   "options": [
+    "庫存充足",
+    "已出貨",
+    "缺貨",
+    "已停產"
+   ],
+   "answer": 2,
+   "example": "This model is out of stock, so they offered a similar one.",
+   "exampleZh": "這個型號缺貨，所以他們提供了類似的型號。",
+   "id": "out of stock"
+  },
+  {
+   "word": "exchange rate",
+   "type": "meaning",
+   "prompt": "exchange rate",
+   "options": [
+    "利率",
+    "匯率",
+    "稅率",
+    "折扣率"
+   ],
+   "answer": 1,
+   "example": "The price in US dollars may change because of the exchange rate.",
+   "exampleZh": "美元報價可能會因為匯率而改變。",
+   "id": "exchange rate"
+  },
+  {
+   "word": "carton",
+   "type": "meaning",
+   "prompt": "carton",
+   "options": [
+    "紙箱",
+    "棧板",
+    "貨櫃",
+    "標籤"
+   ],
+   "answer": 0,
+   "example": "Each carton has 24 rolls of packing tape.",
+   "exampleZh": "每個紙箱有24捲封箱膠帶。",
+   "id": "carton"
+  },
+  {
+   "word": "unit of measure",
+   "type": "meaning",
+   "prompt": "unit of measure (UOM)",
+   "options": [
+    "測量工具",
+    "計量單位",
+    "單位成本",
+    "品質標準"
+   ],
+   "answer": 1,
+   "example": "Please check the unit of measure: is it per box or per piece?",
+   "exampleZh": "請確認計量單位：是以箱計還是以個計？",
+   "id": "unit of measure"
+  },
+  {
+   "word": "phrase:could you confirm the delivery date",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商確認確切的到貨日期，最自然的說法是？",
+   "options": [
+    "When the goods come, tell.",
+    "Could you confirm the delivery date for this order?",
+    "You give me date now.",
+    "Delivery date is what?"
+   ],
+   "answer": 1,
+   "example": "Could you confirm the delivery date for this order?",
+   "exampleZh": "可以請您確認這張訂單的到貨日期嗎？",
+   "id": "phrase:could you confirm the delivery date"
+  },
+  {
+   "word": "phrase:there seems to be a mistake",
+   "type": "phrase",
+   "prompt": "情境：你發現發票金額和報價不一樣，想禮貌地告訴廠商，最自然的說法是？",
+   "options": [
+    "Your invoice is wrong, fix.",
+    "You make mistake again.",
+    "There seems to be a mistake on the invoice. The amount doesn't match the quotation.",
+    "Invoice not same, why?"
+   ],
+   "answer": 2,
+   "example": "There seems to be a mistake on the invoice. The amount doesn't match the quotation.",
+   "exampleZh": "發票似乎有誤，金額和報價單不符。",
+   "id": "phrase:there seems to be a mistake"
+  },
+  {
+   "word": "phrase:i'm writing to ask about",
+   "type": "phrase",
+   "prompt": "情境：寫信給新廠商詢問產品資訊，開頭最自然的說法是？",
+   "options": [
+    "I'm writing to ask about your safety gloves.",
+    "I write for ask your gloves.",
+    "Tell me gloves information.",
+    "I am wrote to asking gloves."
+   ],
+   "answer": 0,
+   "example": "Hello, I'm writing to ask about your safety gloves and their prices.",
+   "exampleZh": "您好，我寫信是想詢問貴公司的安全手套及價格。",
+   "id": "phrase:i'm writing to ask about"
+  }
+ ]
+}
