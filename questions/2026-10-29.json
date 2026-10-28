@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-29",
+ "questions": [
+  {
+   "word": "proforma invoice",
+   "type": "meaning",
+   "prompt": "proforma invoice",
+   "options": [
+    "形式發票（預估發票）",
+    "收據",
+    "退款單",
+    "報關單"
+   ],
+   "answer": 0,
+   "example": "Please send us the proforma invoice so we can arrange the deposit.",
+   "exampleZh": "請寄給我們形式發票，我們好安排訂金。",
+   "id": "proforma invoice"
+  },
+  {
+   "word": "credit note",
+   "type": "meaning",
+   "prompt": "credit note",
+   "options": [
+    "信用卡",
+    "貸項通知單（折讓單）",
+    "付款提醒",
+    "採購申請單"
+   ],
+   "answer": 1,
+   "example": "The supplier issued a credit note for the damaged cartons.",
+   "exampleZh": "供應商針對損壞的紙箱開了一張折讓單。",
+   "id": "credit note"
+  },
+  {
+   "word": "shortage",
+   "type": "meaning",
+   "prompt": "shortage",
+   "options": [
+    "超額",
+    "延期",
+    "短缺；短少",
+    "樣品"
+   ],
+   "answer": 2,
+   "example": "We found a shortage of 20 units when we counted the delivery.",
+   "exampleZh": "清點到貨時，我們發現短少了 20 個。",
+   "id": "shortage"
+  },
+  {
+   "word": "transit time",
+   "type": "meaning",
+   "prompt": "transit time",
+   "options": [
+    "工作時間",
+    "交貨期限",
+    "付款期間",
+    "運輸時間（在途時間）"
+   ],
+   "answer": 3,
+   "example": "The transit time by sea is about two weeks.",
+   "exampleZh": "海運的運輸時間大約兩週。",
+   "id": "transit time"
+  },
+  {
+   "word": "consolidate",
+   "type": "meaning",
+   "prompt": "consolidate",
+   "options": [
+    "合併（貨物、訂單）",
+    "取消",
+    "拆開",
+    "檢驗"
+   ],
+   "answer": 0,
+   "example": "Can we consolidate these two orders into one shipment?",
+   "exampleZh": "我們可以把這兩張訂單合併成一批出貨嗎？",
+   "id": "consolidate"
+  },
+  {
+   "word": "demurrage",
+   "type": "meaning",
+   "prompt": "demurrage",
+   "options": [
+    "關稅",
+    "貨櫃滯留費（滯港費）",
+    "保險費",
+    "運費折扣"
+   ],
+   "answer": 1,
+   "example": "If we don't pick up the container this week, we will pay demurrage.",
+   "exampleZh": "如果這週不去領貨櫃，我們就要付滯港費。",
+   "id": "demurrage"
+  },
+  {
+   "word": "discrepancy",
+   "type": "meaning",
+   "prompt": "discrepancy",
+   "options": [
+    "折扣",
+    "規格",
+    "差異；不一致",
+    "保固"
+   ],
+   "answer": 2,
+   "example": "There is a discrepancy between the invoice and the packing list.",
+   "exampleZh": "發票和裝箱單之間有不一致的地方。",
+   "id": "discrepancy"
+  },
+  {
+   "word": "phrase:could you share an update by",
+   "type": "phrase",
+   "prompt": "情境：你希望廠商在週五前回報進度，最自然的說法是？",
+   "options": [
+    "Friday you tell me update.",
+    "Update give me before Friday.",
+    "Could you share an update by Friday?",
+    "You must update Friday, okay?"
+   ],
+   "answer": 2,
+   "example": "Could you share an update by Friday?",
+   "exampleZh": "可以請您在週五前提供進度更新嗎？",
+   "id": "phrase:could you share an update by"
+  },
+  {
+   "word": "phrase:please let us know your best price",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商報出最優惠的價格，最自然的說法是？",
+   "options": [
+    "Please let us know your best price for 500 units.",
+    "Give cheap price, please.",
+    "What is lowest? Tell.",
+    "Your price is best, yes?"
+   ],
+   "answer": 0,
+   "example": "Please let us know your best price for 500 units.",
+   "exampleZh": "請告訴我們 500 個的最優惠價格。",
+   "id": "phrase:please let us know your best price"
+  },
+  {
+   "word": "phrase:we are pleased to confirm",
+   "type": "phrase",
+   "prompt": "情境：你要正式回信確認下單，最自然的開頭是？",
+   "options": [
+    "Okay, we buy it.",
+    "Confirm, yes, order.",
+    "We happy confirm order.",
+    "We are pleased to confirm our order."
+   ],
+   "answer": 3,
+   "example": "We are pleased to confirm our order for 300 pallets.",
+   "exampleZh": "我們很高興確認訂購 300 個棧板。",
+   "id": "phrase:we are pleased to confirm"
+  }
+ ]
+}
