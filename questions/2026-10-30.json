@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-30",
+ "questions": [
+  {
+   "word": "reminder",
+   "type": "meaning",
+   "prompt": "reminder",
+   "options": [
+    "提醒（通知）",
+    "收據",
+    "報價",
+    "退貨"
+   ],
+   "answer": 0,
+   "example": "This is a friendly reminder that the invoice is due on Monday.",
+   "exampleZh": "這是一則友善提醒，發票款項將於週一到期。",
+   "id": "reminder"
+  },
+  {
+   "word": "stock level",
+   "type": "meaning",
+   "prompt": "stock level",
+   "options": [
+    "股票價格",
+    "庫存量",
+    "倉庫位置",
+    "樓層高度"
+   ],
+   "answer": 1,
+   "example": "Please check the stock level before we place the next order.",
+   "exampleZh": "下次下單前請先確認庫存量。",
+   "id": "stock level"
+  },
+  {
+   "word": "courier",
+   "type": "meaning",
+   "prompt": "courier",
+   "options": [
+    "海運",
+    "客服人員",
+    "快遞（快遞公司）",
+    "會計師"
+   ],
+   "answer": 2,
+   "example": "The samples will be sent by courier tomorrow.",
+   "exampleZh": "樣品明天會用快遞寄出。",
+   "id": "courier"
+  },
+  {
+   "word": "customs clearance",
+   "type": "meaning",
+   "prompt": "customs clearance",
+   "options": [
+    "清倉拍賣",
+    "海關檢查員",
+    "關稅稅率",
+    "清關（通關）"
+   ],
+   "answer": 3,
+   "example": "Customs clearance usually takes two to three days.",
+   "exampleZh": "清關通常需要兩到三天。",
+   "id": "customs clearance"
+  },
+  {
+   "word": "quality control",
+   "type": "meaning",
+   "prompt": "quality control",
+   "options": [
+    "品質管制（品管）",
+    "數量控制",
+    "價格管理",
+    "遙控器"
+   ],
+   "answer": 0,
+   "example": "Our quality control team found some scratches on the boxes.",
+   "exampleZh": "我們的品管團隊在箱子上發現了一些刮痕。",
+   "id": "quality control"
+  },
+  {
+   "word": "contract",
+   "type": "meaning",
+   "prompt": "contract",
+   "options": [
+    "聯絡人",
+    "合約",
+    "承包商",
+    "報價單"
+   ],
+   "answer": 1,
+   "example": "We need to sign the contract before the first shipment.",
+   "exampleZh": "我們需要在第一批出貨前簽好合約。",
+   "id": "contract"
+  },
+  {
+   "word": "estimate",
+   "type": "meaning",
+   "prompt": "estimate",
+   "options": [
+    "房地產",
+    "確認",
+    "估計；估價",
+    "延長"
+   ],
+   "answer": 2,
+   "example": "Can you give us an estimate of the shipping cost?",
+   "exampleZh": "可以給我們運費的估價嗎？",
+   "id": "estimate"
+  },
+  {
+   "word": "phrase:could you let me know",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商告訴你何時可以出貨，最自然的說法是？",
+   "options": [
+    "When ship? Tell me.",
+    "You ship when, let me know?",
+    "Ship time you say me.",
+    "Could you let me know when you can ship the order?"
+   ],
+   "answer": 3,
+   "example": "Could you let me know when you can ship the order?",
+   "exampleZh": "可以請您告訴我何時能出貨嗎？",
+   "id": "phrase:could you let me know"
+  },
+  {
+   "word": "phrase:we apologize for the inconvenience",
+   "type": "phrase",
+   "prompt": "情境：因為你們的錯誤造成廠商麻煩，你要正式道歉，最自然的說法是？",
+   "options": [
+    "We apologize for the inconvenience.",
+    "Sorry, is our problem, okay.",
+    "We are sorry make you trouble.",
+    "Inconvenience, sorry sorry."
+   ],
+   "answer": 0,
+   "example": "We apologize for the inconvenience and will fix it today.",
+   "exampleZh": "造成不便我們深感抱歉，今天會處理好。",
+   "id": "phrase:we apologize for the inconvenience"
+  },
+  {
+   "word": "phrase:please note that",
+   "type": "phrase",
+   "prompt": "情境：你要在信中提醒廠商一項重要資訊（辦公室週五休息），最自然的說法是？",
+   "options": [
+    "Note, Friday office no.",
+    "Please note that our office will be closed on Friday.",
+    "You must know Friday we close.",
+    "Friday closed office, remember it."
+   ],
+   "answer": 1,
+   "example": "Please note that our office will be closed on Friday.",
+   "exampleZh": "請注意，我們辦公室週五休息。",
+   "id": "phrase:please note that"
+  }
+ ]
+}
