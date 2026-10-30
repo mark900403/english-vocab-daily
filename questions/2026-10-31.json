@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-31",
+ "questions": [
+  {
+   "word": "lead time buffer",
+   "type": "meaning",
+   "prompt": "lead time buffer",
+   "options": [
+    "交期緩衝時間",
+    "運費折扣",
+    "付款期限",
+    "倉庫容量"
+   ],
+   "answer": 0,
+   "example": "We added a two-week lead time buffer in case the supplier is late.",
+   "exampleZh": "我們多預留了兩週的交期緩衝時間，以防供應商延誤。",
+   "id": "lead time buffer"
+  },
+  {
+   "word": "vendor",
+   "type": "meaning",
+   "prompt": "vendor",
+   "options": [
+    "顧客",
+    "廠商；供應商",
+    "員工",
+    "海關"
+   ],
+   "answer": 1,
+   "example": "Our vendor sent the new price list this morning.",
+   "exampleZh": "我們的廠商今天早上寄來了新的價目表。",
+   "id": "vendor"
+  },
+  {
+   "word": "terms and conditions",
+   "type": "meaning",
+   "prompt": "terms and conditions",
+   "options": [
+    "工作時間",
+    "產品規格",
+    "條款與條件",
+    "運輸路線"
+   ],
+   "answer": 2,
+   "example": "Please read the terms and conditions before you sign the contract.",
+   "exampleZh": "簽約前請先閱讀條款與條件。",
+   "id": "terms and conditions"
+  },
+  {
+   "word": "loading date",
+   "type": "meaning",
+   "prompt": "loading date",
+   "options": [
+    "付款日",
+    "下單日",
+    "交貨地點",
+    "裝貨日"
+   ],
+   "answer": 3,
+   "example": "The loading date was changed to November 12 because of the typhoon.",
+   "exampleZh": "因為颱風，裝貨日改到了11月12日。",
+   "id": "loading date"
+  },
+  {
+   "word": "cost breakdown",
+   "type": "meaning",
+   "prompt": "cost breakdown",
+   "options": [
+    "成本明細",
+    "成本上漲",
+    "機器故障",
+    "預算刪減"
+   ],
+   "answer": 0,
+   "example": "Could you send us a cost breakdown for the packaging materials?",
+   "exampleZh": "可以寄給我們包材的成本明細嗎？",
+   "id": "cost breakdown"
+  },
+  {
+   "word": "price increase",
+   "type": "meaning",
+   "prompt": "price increase",
+   "options": [
+    "降價",
+    "漲價",
+    "價格標籤",
+    "價格比較"
+   ],
+   "answer": 1,
+   "example": "The supplier announced a 5% price increase starting next month.",
+   "exampleZh": "供應商宣布下個月起漲價5%。",
+   "id": "price increase"
+  },
+  {
+   "word": "returned goods",
+   "type": "meaning",
+   "prompt": "returned goods",
+   "options": [
+    "新到貨品",
+    "庫存貨品",
+    "退回的貨品",
+    "免費贈品"
+   ],
+   "answer": 2,
+   "example": "We sent the returned goods back to the vendor last Friday.",
+   "exampleZh": "我們上週五把退貨寄回給廠商了。",
+   "id": "returned goods"
+  },
+  {
+   "word": "phrase:could you double-check",
+   "type": "phrase",
+   "prompt": "情境：你覺得廠商寄來的數量好像不對，想請他們再確認一次，最自然的說法是？",
+   "options": [
+    "You check again, maybe wrong.",
+    "Could you double-check the quantity on the invoice?",
+    "Quantity is wrong, check!",
+    "Check one more the quantity please you."
+   ],
+   "answer": 1,
+   "example": "Could you double-check the quantity on the invoice?",
+   "exampleZh": "可以請您再確認一下發票上的數量嗎？",
+   "id": "phrase:could you double-check"
+  },
+  {
+   "word": "phrase:i'd like to follow up on",
+   "type": "phrase",
+   "prompt": "情境：上週寄出的報價需求還沒回覆，你想禮貌地追蹤，最自然的說法是？",
+   "options": [
+    "Why you no reply my email?",
+    "I'd like to follow up on the quotation I requested last week.",
+    "Quotation where? Last week I ask.",
+    "I follow you up about quote."
+   ],
+   "answer": 1,
+   "example": "I'd like to follow up on the quotation I requested last week.",
+   "exampleZh": "我想追蹤一下上週我索取的報價。",
+   "id": "phrase:i'd like to follow up on"
+  },
+  {
+   "word": "phrase:we need it by",
+   "type": "phrase",
+   "prompt": "情境：你要告訴廠商貨最晚要在11月20日前送到，最自然的說法是？",
+   "options": [
+    "We need it by November 20.",
+    "We need it until November 20.",
+    "November 20 need it we.",
+    "It must arrive in November 20 latest maybe."
+   ],
+   "answer": 0,
+   "example": "We need it by November 20 for the new site opening.",
+   "exampleZh": "新據點開幕需要，我們最晚11月20日前要拿到。",
+   "id": "phrase:we need it by"
+  }
+ ]
+}
