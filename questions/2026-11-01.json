@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-01",
+ "questions": [
+  {
+   "word": "commercial invoice",
+   "type": "meaning",
+   "prompt": "commercial invoice",
+   "options": [
+    "報價單",
+    "商業發票（報關用）",
+    "收據",
+    "訂購單"
+   ],
+   "answer": 1,
+   "example": "Customs needs the commercial invoice before they can release the goods.",
+   "exampleZh": "海關需要商業發票才能放行貨物。",
+   "id": "commercial invoice"
+  },
+  {
+   "word": "delivery note",
+   "type": "meaning",
+   "prompt": "delivery note",
+   "options": [
+    "送貨單；出貨單",
+    "催款通知",
+    "退貨申請",
+    "價目表"
+   ],
+   "answer": 0,
+   "example": "Please sign the delivery note when the boxes arrive.",
+   "exampleZh": "箱子送到時請在送貨單上簽名。",
+   "id": "delivery note"
+  },
+  {
+   "word": "certificate of origin",
+   "type": "meaning",
+   "prompt": "certificate of origin",
+   "options": [
+    "品質保證書",
+    "營業執照",
+    "原產地證明",
+    "保險單"
+   ],
+   "answer": 2,
+   "example": "The supplier will send the certificate of origin with the shipping documents.",
+   "exampleZh": "供應商會隨出貨文件一起寄上原產地證明。",
+   "id": "certificate of origin"
+  },
+  {
+   "word": "cut-off date",
+   "type": "meaning",
+   "prompt": "cut-off date",
+   "options": [
+    "發貨日",
+    "付款日",
+    "交貨日",
+    "截止日（結關日）"
+   ],
+   "answer": 3,
+   "example": "The cut-off date for this vessel is Friday, so we must finish packing by Thursday.",
+   "exampleZh": "這班船的結關日是星期五，所以我們星期四前必須包裝完成。",
+   "id": "cut-off date"
+  },
+  {
+   "word": "wire transfer",
+   "type": "meaning",
+   "prompt": "wire transfer",
+   "options": [
+    "電匯；銀行轉帳",
+    "現金付款",
+    "信用卡刷卡",
+    "支票"
+   ],
+   "answer": 0,
+   "example": "We paid the deposit by wire transfer yesterday.",
+   "exampleZh": "我們昨天用電匯付了訂金。",
+   "id": "wire transfer"
+  },
+  {
+   "word": "net 30",
+   "type": "meaning",
+   "prompt": "net 30",
+   "options": [
+    "打七折",
+    "30天內付款（月結30天）",
+    "最少訂購30件",
+    "30天內出貨"
+   ],
+   "answer": 1,
+   "example": "Our payment terms are net 30, so the invoice is due at the end of next month.",
+   "exampleZh": "我們的付款條件是月結30天，所以這張發票下個月底到期。",
+   "id": "net 30"
+  },
+  {
+   "word": "rush order",
+   "type": "meaning",
+   "prompt": "rush order",
+   "options": [
+    "取消的訂單",
+    "大量訂單",
+    "急單",
+    "試用訂單"
+   ],
+   "answer": 2,
+   "example": "This is a rush order, so please ship it by air.",
+   "exampleZh": "這是急單，所以請用空運寄送。",
+   "id": "rush order"
+  },
+  {
+   "word": "phrase:could you provide",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商提供這個產品的規格表，最自然的說法是？",
+   "options": [
+    "You give me spec sheet.",
+    "Spec sheet, send now.",
+    "Could you provide the spec sheet for this product?",
+    "Can you providing me spec sheet please?"
+   ],
+   "answer": 2,
+   "example": "Could you provide the spec sheet for this product?",
+   "exampleZh": "可以請您提供這個產品的規格表嗎？",
+   "id": "phrase:could you provide"
+  },
+  {
+   "word": "phrase:please confirm receipt",
+   "type": "phrase",
+   "prompt": "情境：你寄出了訂購單，想請廠商回覆確認有收到，最自然的說法是？",
+   "options": [
+    "Please confirm receipt of this purchase order.",
+    "You receive or not?",
+    "Please receipt confirm the order.",
+    "Did you got my order yes?"
+   ],
+   "answer": 0,
+   "example": "Please confirm receipt of this purchase order.",
+   "exampleZh": "請確認是否已收到這張訂購單。",
+   "id": "phrase:please confirm receipt"
+  },
+  {
+   "word": "phrase:we regret to inform you",
+   "type": "phrase",
+   "prompt": "情境：你要禮貌地通知廠商，這次我們決定不下單了，最自然的說法是？",
+   "options": [
+    "Sorry, no order, bye.",
+    "We regret to inform you that we will not place the order this time.",
+    "We are regret informing you no order.",
+    "Order is cancel because we don't want."
+   ],
+   "answer": 1,
+   "example": "We regret to inform you that we will not place the order this time.",
+   "exampleZh": "很遺憾通知您，我們這次將不會下單。",
+   "id": "phrase:we regret to inform you"
+  }
+ ]
+}
