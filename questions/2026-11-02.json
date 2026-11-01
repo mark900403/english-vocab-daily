@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-02",
+ "questions": [
+  {
+   "word": "air freight",
+   "type": "meaning",
+   "prompt": "air freight",
+   "options": [
+    "海運",
+    "空運",
+    "陸運",
+    "快遞"
+   ],
+   "answer": 1,
+   "example": "Air freight is faster, but it costs much more than sea freight.",
+   "exampleZh": "空運比較快，但費用比海運高很多。",
+   "id": "air freight"
+  },
+  {
+   "word": "down payment",
+   "type": "meaning",
+   "prompt": "down payment",
+   "options": [
+    "尾款",
+    "退款",
+    "頭期款；訂金",
+    "手續費"
+   ],
+   "answer": 2,
+   "example": "We paid a 30% down payment when we placed the order.",
+   "exampleZh": "我們下單時付了30%的頭期款。",
+   "id": "down payment"
+  },
+  {
+   "word": "balance payment",
+   "type": "meaning",
+   "prompt": "balance payment",
+   "options": [
+    "尾款（剩餘款項）",
+    "預付款",
+    "罰款",
+    "運費"
+   ],
+   "answer": 0,
+   "example": "The balance payment is due before shipment.",
+   "exampleZh": "尾款需在出貨前付清。",
+   "id": "balance payment"
+  },
+  {
+   "word": "lead time reduction",
+   "type": "meaning",
+   "prompt": "lead time reduction",
+   "options": [
+    "延長交期",
+    "縮短交期",
+    "取消交期",
+    "確認交期"
+   ],
+   "answer": 1,
+   "example": "The supplier offered a lead time reduction if we order more units.",
+   "exampleZh": "如果我們訂更多數量，供應商願意縮短交期。",
+   "id": "lead time reduction"
+  },
+  {
+   "word": "backup supplier",
+   "type": "meaning",
+   "prompt": "backup supplier",
+   "options": [
+    "主要供應商",
+    "新客戶",
+    "備用供應商",
+    "競爭對手"
+   ],
+   "answer": 2,
+   "example": "We need a backup supplier in case the main one has a delay.",
+   "exampleZh": "我們需要一家備用供應商，以防主要供應商延誤。",
+   "id": "backup supplier"
+  },
+  {
+   "word": "handling fee",
+   "type": "meaning",
+   "prompt": "handling fee",
+   "options": [
+    "處理費；手續費",
+    "保險費",
+    "關稅",
+    "押金"
+   ],
+   "answer": 0,
+   "example": "The forwarder charges a handling fee for each shipment.",
+   "exampleZh": "貨代每批貨會收取處理費。",
+   "id": "handling fee"
+  },
+  {
+   "word": "delivery schedule",
+   "type": "meaning",
+   "prompt": "delivery schedule",
+   "options": [
+    "付款方式",
+    "交貨時程表",
+    "價格表",
+    "包裝方式"
+   ],
+   "answer": 1,
+   "example": "Please send us the updated delivery schedule for next month.",
+   "exampleZh": "請寄給我們下個月更新後的交貨時程表。",
+   "id": "delivery schedule"
+  },
+  {
+   "word": "phrase:could you split the shipment",
+   "type": "phrase",
+   "prompt": "情境：部分貨品急需，你想請廠商把這批貨分兩次出，最自然的說法是？",
+   "options": [
+    "You split shipment two time.",
+    "Could you split the shipment into two deliveries?",
+    "Shipment split, can or not?",
+    "Can you splitting the shipment please?"
+   ],
+   "answer": 1,
+   "example": "Could you split the shipment into two deliveries?",
+   "exampleZh": "可以請您把這批貨分成兩次出貨嗎？",
+   "id": "phrase:could you split the shipment"
+  },
+  {
+   "word": "phrase:is this price negotiable",
+   "type": "phrase",
+   "prompt": "情境：你覺得報價有點高，想禮貌地問廠商價格還能不能談，最自然的說法是？",
+   "options": [
+    "Price too high, you lower.",
+    "Is this price can negotiate?",
+    "Is this price negotiable?",
+    "You must give me cheaper price."
+   ],
+   "answer": 2,
+   "example": "Is this price negotiable if we order 500 units?",
+   "exampleZh": "如果我們訂500個，這個價格還可以談嗎？",
+   "id": "phrase:is this price negotiable"
+  },
+  {
+   "word": "phrase:we would appreciate it if",
+   "type": "phrase",
+   "prompt": "情境：你想客氣地請廠商這週五前寄樣品，最自然的說法是？",
+   "options": [
+    "We would appreciate it if you could send the samples by Friday.",
+    "Send sample Friday, thanks.",
+    "We appreciate if you sending samples on Friday.",
+    "You should to send samples Friday."
+   ],
+   "answer": 0,
+   "example": "We would appreciate it if you could send the samples by Friday.",
+   "exampleZh": "如果您能在週五前寄出樣品，我們會很感激。",
+   "id": "phrase:we would appreciate it if"
+  }
+ ]
+}
