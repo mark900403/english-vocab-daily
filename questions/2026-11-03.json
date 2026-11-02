@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-03",
+ "questions": [
+  {
+   "word": "sea freight",
+   "type": "meaning",
+   "prompt": "sea freight",
+   "options": [
+    "空運",
+    "海運",
+    "鐵路運輸",
+    "倉儲費"
+   ],
+   "answer": 1,
+   "example": "Sea freight takes about four weeks from Shanghai to Kaohsiung.",
+   "exampleZh": "從上海到高雄的海運大約要四週。",
+   "id": "sea freight"
+  },
+  {
+   "word": "quote validity",
+   "type": "meaning",
+   "prompt": "quote validity",
+   "options": [
+    "報價有效期限",
+    "報價單號碼",
+    "品質保證",
+    "付款期限"
+   ],
+   "answer": 0,
+   "example": "The quote validity is 30 days, so please confirm before the end of the month.",
+   "exampleZh": "報價有效期限是30天，所以請在月底前確認。",
+   "id": "quote validity"
+  },
+  {
+   "word": "restock",
+   "type": "meaning",
+   "prompt": "restock",
+   "options": [
+    "退貨",
+    "盤點",
+    "補貨",
+    "停產"
+   ],
+   "answer": 2,
+   "example": "The supplier will restock this item next week.",
+   "exampleZh": "供應商下週會補這個品項的貨。",
+   "id": "restock"
+  },
+  {
+   "word": "discontinued",
+   "type": "meaning",
+   "prompt": "discontinued",
+   "options": [
+    "打折中",
+    "已停產",
+    "缺貨中",
+    "已出貨"
+   ],
+   "answer": 1,
+   "example": "I'm sorry, this model was discontinued last year.",
+   "exampleZh": "很抱歉，這個型號去年已經停產了。",
+   "id": "discontinued"
+  },
+  {
+   "word": "shipping cost",
+   "type": "meaning",
+   "prompt": "shipping cost",
+   "options": [
+    "運費",
+    "關稅",
+    "包裝費",
+    "保險費"
+   ],
+   "answer": 0,
+   "example": "Does the unit price include the shipping cost?",
+   "exampleZh": "這個單價有包含運費嗎？",
+   "id": "shipping cost"
+  },
+  {
+   "word": "pick up",
+   "type": "meaning",
+   "prompt": "pick up (the goods)",
+   "options": [
+    "寄出（貨物）",
+    "檢查（貨物）",
+    "取貨；來收貨",
+    "退回（貨物）"
+   ],
+   "answer": 2,
+   "example": "The driver will pick up the goods at 2 p.m. tomorrow.",
+   "exampleZh": "司機明天下午兩點會來取貨。",
+   "id": "pick up"
+  },
+  {
+   "word": "signature",
+   "type": "meaning",
+   "prompt": "signature",
+   "options": [
+    "印章",
+    "簽名",
+    "日期",
+    "收據"
+   ],
+   "answer": 1,
+   "example": "Please send back the contract with your signature.",
+   "exampleZh": "請把簽好名的合約寄回來。",
+   "id": "signature"
+  },
+  {
+   "word": "phrase:could you resend",
+   "type": "phrase",
+   "prompt": "情境：廠商寄來的附件打不開，你想請對方再寄一次，最自然的說法是？",
+   "options": [
+    "You send again file.",
+    "Could you resend the file? I can't open it.",
+    "File cannot open, send me.",
+    "Can you resending the file?"
+   ],
+   "answer": 1,
+   "example": "Could you resend the file? I can't open the attachment.",
+   "exampleZh": "可以請您再寄一次檔案嗎？我打不開附件。",
+   "id": "phrase:could you resend"
+  },
+  {
+   "word": "phrase:when can you ship",
+   "type": "phrase",
+   "prompt": "情境：你想問廠商最快什麼時候可以出貨，最自然的說法是？",
+   "options": [
+    "When you can ship?",
+    "Ship when, please?",
+    "When can you ship the order?",
+    "When are you ship the order?"
+   ],
+   "answer": 2,
+   "example": "When can you ship the order if we confirm today?",
+   "exampleZh": "如果我們今天確認，你們什麼時候可以出貨？",
+   "id": "phrase:when can you ship"
+  },
+  {
+   "word": "phrase:we have received",
+   "type": "phrase",
+   "prompt": "情境：你要告訴廠商貨已經收到了，最自然的說法是？",
+   "options": [
+    "We have received the goods today.",
+    "We are receive the goods today.",
+    "Goods is received by us yesterday.",
+    "We received goods already today yes."
+   ],
+   "answer": 0,
+   "example": "We have received the goods. Thank you for the fast delivery.",
+   "exampleZh": "我們已經收到貨了，謝謝你們快速出貨。",
+   "id": "phrase:we have received"
+  }
+ ]
+}
