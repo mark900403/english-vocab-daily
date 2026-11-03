@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-04",
+ "questions": [
+  {
+   "word": "lead time variance",
+   "type": "meaning",
+   "prompt": "lead time variance",
+   "options": [
+    "交期波動",
+    "交期縮短",
+    "前置作業",
+    "運費差額"
+   ],
+   "answer": 0,
+   "example": "The lead time variance is large this quarter, so we keep extra stock.",
+   "exampleZh": "這一季的交期波動很大，所以我們多備一些庫存。",
+   "id": "lead time variance"
+  },
+  {
+   "word": "price quote",
+   "type": "meaning",
+   "prompt": "price quote",
+   "options": [
+    "價格調漲",
+    "報價",
+    "價目表",
+    "折扣碼"
+   ],
+   "answer": 1,
+   "example": "Could you send us a price quote for 500 cartons?",
+   "exampleZh": "可以請您提供500箱的報價嗎？",
+   "id": "price quote"
+  },
+  {
+   "word": "minimum order",
+   "type": "meaning",
+   "prompt": "minimum order",
+   "options": [
+    "最大訂單",
+    "緊急訂單",
+    "最低訂購量",
+    "重複訂單"
+   ],
+   "answer": 2,
+   "example": "The minimum order is 1,000 pieces for this item.",
+   "exampleZh": "這個品項的最低訂購量是1,000件。",
+   "id": "minimum order"
+  },
+  {
+   "word": "shipping mark",
+   "type": "meaning",
+   "prompt": "shipping mark",
+   "options": [
+    "運費標準",
+    "出貨日期",
+    "貨運追蹤",
+    "嘜頭（箱上的出貨標記）"
+   ],
+   "answer": 3,
+   "example": "Please print our PO number on the shipping mark.",
+   "exampleZh": "請在嘜頭上印上我們的採購單號碼。",
+   "id": "shipping mark"
+  },
+  {
+   "word": "invoice amount",
+   "type": "meaning",
+   "prompt": "invoice amount",
+   "options": [
+    "發票金額",
+    "發票號碼",
+    "付款日期",
+    "退款金額"
+   ],
+   "answer": 0,
+   "example": "The invoice amount does not match the purchase order.",
+   "exampleZh": "發票金額和採購單不一致。",
+   "id": "invoice amount"
+  },
+  {
+   "word": "subject line",
+   "type": "meaning",
+   "prompt": "subject line（郵件中）",
+   "options": [
+    "簽名檔",
+    "主旨",
+    "收件人",
+    "副本"
+   ],
+   "answer": 1,
+   "example": "Please put the order number in the subject line.",
+   "exampleZh": "請在郵件主旨寫上訂單號碼。",
+   "id": "subject line"
+  },
+  {
+   "word": "cc",
+   "type": "meaning",
+   "prompt": "cc（郵件中）",
+   "options": [
+    "回覆全部",
+    "密件副本",
+    "副本（同時寄給）",
+    "轉寄"
+   ],
+   "answer": 2,
+   "example": "Please cc my manager on your next email.",
+   "exampleZh": "下一封信請副本給我的主管。",
+   "id": "cc"
+  },
+  {
+   "word": "phrase:could you give us a quote",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商針對新品項提供報價，最自然的說法是？",
+   "options": [
+    "You give quote to us.",
+    "Could you give us a quote for this item?",
+    "Can you giving us quote?",
+    "Quote please give for item."
+   ],
+   "answer": 1,
+   "example": "Could you give us a quote for this item, including shipping?",
+   "exampleZh": "可以請您提供這個品項含運費的報價嗎？",
+   "id": "phrase:could you give us a quote"
+  },
+  {
+   "word": "phrase:the shipment was delayed",
+   "type": "phrase",
+   "prompt": "情境：你要向主管說明上週的貨延遲了（過去式），最自然的說法是？",
+   "options": [
+    "The shipment is delay last week.",
+    "The shipment delay last week.",
+    "The shipment was delayed last week.",
+    "Last week shipment delaying."
+   ],
+   "answer": 2,
+   "example": "The shipment was delayed last week because of bad weather.",
+   "exampleZh": "上週的貨因為天氣不好延遲了。",
+   "id": "phrase:the shipment was delayed"
+  },
+  {
+   "word": "phrase:what is your lead time",
+   "type": "phrase",
+   "prompt": "情境：你想問新廠商下單後要多久才能交貨，最自然的說法是？",
+   "options": [
+    "What is your lead time for this order?",
+    "How long your lead time is?",
+    "Lead time how many?",
+    "What your lead time?"
+   ],
+   "answer": 0,
+   "example": "What is your lead time for an order of 2,000 pieces?",
+   "exampleZh": "訂2,000件的話，你們的交期是多久？",
+   "id": "phrase:what is your lead time"
+  }
+ ]
+}
