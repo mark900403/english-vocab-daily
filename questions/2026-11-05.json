@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-05",
+ "questions": [
+  {
+   "word": "capacity",
+   "type": "meaning",
+   "prompt": "capacity",
+   "options": [
+    "產能",
+    "容量單位",
+    "成本",
+    "合約期限"
+   ],
+   "answer": 0,
+   "example": "Our supplier does not have enough capacity to make 10,000 units this month.",
+   "exampleZh": "我們的供應商這個月沒有足夠產能生產一萬個。",
+   "id": "capacity"
+  },
+  {
+   "word": "forecast",
+   "type": "meaning",
+   "prompt": "forecast",
+   "options": [
+    "預付款",
+    "需求預測",
+    "前置時間",
+    "退貨"
+   ],
+   "answer": 1,
+   "example": "We shared our three-month forecast with the vendor.",
+   "exampleZh": "我們把未來三個月的需求預測分享給廠商。",
+   "id": "forecast"
+  },
+  {
+   "word": "price validity",
+   "type": "meaning",
+   "prompt": "price validity",
+   "options": [
+    "價格有效期",
+    "價格調整",
+    "單價",
+    "價格比較"
+   ],
+   "answer": 0,
+   "example": "The price validity of this offer is 30 days.",
+   "exampleZh": "這份報價的價格有效期是30天。",
+   "id": "price validity"
+  },
+  {
+   "word": "customs duty",
+   "type": "meaning",
+   "prompt": "customs duty",
+   "options": [
+    "報關行",
+    "關稅",
+    "海關檢查",
+    "通關文件"
+   ],
+   "answer": 1,
+   "example": "Who will pay the customs duty for this shipment?",
+   "exampleZh": "這批貨的關稅由誰支付？",
+   "id": "customs duty"
+  },
+  {
+   "word": "cargo",
+   "type": "meaning",
+   "prompt": "cargo",
+   "options": [
+    "貨櫃",
+    "司機",
+    "貨物",
+    "收據"
+   ],
+   "answer": 2,
+   "example": "The cargo arrived at the port yesterday.",
+   "exampleZh": "貨物昨天抵達港口了。",
+   "id": "cargo"
+  },
+  {
+   "word": "outstanding",
+   "type": "meaning",
+   "prompt": "outstanding (in an invoice email)",
+   "options": [
+    "優秀的",
+    "已付清的",
+    "尚未付清的",
+    "已取消的"
+   ],
+   "answer": 2,
+   "example": "There is still an outstanding balance of USD 2,000 on this invoice.",
+   "exampleZh": "這張發票還有2,000美元尚未付清。",
+   "id": "outstanding"
+  },
+  {
+   "word": "packaging",
+   "type": "meaning",
+   "prompt": "packaging",
+   "options": [
+    "包裝",
+    "裝運",
+    "打折",
+    "倉儲"
+   ],
+   "answer": 0,
+   "example": "Please use stronger packaging to avoid damage.",
+   "exampleZh": "請使用更堅固的包裝，以免損壞。",
+   "id": "packaging"
+  },
+  {
+   "word": "phrase:could you check the stock",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商幫忙確認某品項還有沒有庫存，最自然的說法是？",
+   "options": [
+    "You check stock for me.",
+    "Could you check the stock for this item?",
+    "Can you checking stock?",
+    "Stock is check please?"
+   ],
+   "answer": 1,
+   "example": "Could you check the stock for this item before we place the order?",
+   "exampleZh": "在我們下單前，可以請您確認這個品項的庫存嗎？",
+   "id": "phrase:could you check the stock"
+  },
+  {
+   "word": "phrase:we are still waiting for",
+   "type": "phrase",
+   "prompt": "情境：你寫信提醒廠商，你們還在等對方的報價單，最自然的說法是？",
+   "options": [
+    "We still wait the quotation.",
+    "We are wait for your quotation.",
+    "We are still waiting for your quotation.",
+    "Your quotation we waiting still."
+   ],
+   "answer": 2,
+   "example": "We are still waiting for your quotation. Could you send it by Friday?",
+   "exampleZh": "我們還在等您的報價單，可以在週五前寄給我們嗎？",
+   "id": "phrase:we are still waiting for"
+  },
+  {
+   "word": "phrase:please see below",
+   "type": "phrase",
+   "prompt": "情境：你在信件中想請對方看下方的訂單細節，最自然的說法是？",
+   "options": [
+    "Please see below for the order details.",
+    "Please looking below order details.",
+    "See the below please order.",
+    "Below you see please the details."
+   ],
+   "answer": 0,
+   "example": "Please see below for the order details and delivery address.",
+   "exampleZh": "訂單細節與送貨地址請見下方。",
+   "id": "phrase:please see below"
+  }
+ ]
+}
