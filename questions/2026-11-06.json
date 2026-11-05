@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-06",
+ "questions": [
+  {
+   "word": "SKU",
+   "type": "meaning",
+   "prompt": "SKU",
+   "options": [
+    "庫存單位／品項代碼",
+    "運費發票",
+    "付款條件",
+    "報關單"
+   ],
+   "answer": 0,
+   "example": "Please confirm the SKU and quantity before we issue the purchase order.",
+   "exampleZh": "請先確認品項代碼與數量，我們再開採購單。",
+   "id": "SKU"
+  },
+  {
+   "word": "tariff",
+   "type": "meaning",
+   "prompt": "tariff",
+   "options": [
+    "關稅",
+    "棧板費",
+    "運費折扣",
+    "倉儲租金"
+   ],
+   "answer": 0,
+   "example": "The new tariff will raise the landed cost of goods from that country.",
+   "exampleZh": "新的關稅會提高來自該國貨物的到岸成本。",
+   "id": "tariff"
+  },
+  {
+   "word": "safety stock",
+   "type": "meaning",
+   "prompt": "safety stock",
+   "options": [
+    "安全庫存",
+    "瑕疵品",
+    "樣品庫存",
+    "退貨庫存"
+   ],
+   "answer": 0,
+   "example": "We keep two weeks of safety stock in case of shipping delays.",
+   "exampleZh": "我們保有兩週的安全庫存，以防出貨延遲。",
+   "id": "safety stock"
+  },
+  {
+   "word": "letter of credit",
+   "type": "meaning",
+   "prompt": "letter of credit",
+   "options": [
+    "信用狀",
+    "到貨證明",
+    "裝箱單",
+    "詢價單"
+   ],
+   "answer": 0,
+   "example": "The supplier will ship only after they receive our letter of credit.",
+   "exampleZh": "供應商要收到我們的信用狀後才會出貨。",
+   "id": "letter of credit"
+  },
+  {
+   "word": "FCL",
+   "type": "meaning",
+   "prompt": "FCL",
+   "options": [
+    "整櫃海運",
+    "快遞空運",
+    "門到門配送",
+    "小批量空運"
+   ],
+   "answer": 0,
+   "example": "For this volume, FCL is cheaper than shipping several LCL loads.",
+   "exampleZh": "以這個出貨量來說，整櫃海運比多票併櫃更便宜。",
+   "id": "FCL"
+  },
+  {
+   "word": "bottleneck",
+   "type": "meaning",
+   "prompt": "bottleneck",
+   "options": [
+    "瓶頸／卡關環節",
+    "最低訂購量",
+    "運費加價",
+    "交貨碼頭"
+   ],
+   "answer": 0,
+   "example": "Customs clearance is the bottleneck delaying our current shipments.",
+   "exampleZh": "報關是目前延誤出貨的瓶頸。",
+   "id": "bottleneck"
+  },
+  {
+   "word": "traceability",
+   "type": "meaning",
+   "prompt": "traceability",
+   "options": [
+    "可追溯性",
+    "運輸保險",
+    "庫存週轉",
+    "品質抽檢"
+   ],
+   "answer": 0,
+   "example": "We need full lot traceability for every carton in this shipment.",
+   "exampleZh": "這批貨每一箱都需要完整的批號可追溯性。",
+   "id": "traceability"
+  },
+  {
+   "word": "phrase:please keep me posted",
+   "type": "phrase",
+   "prompt": "情境：你請廠商有最新進度時隨時告訴你，最自然的說法是？",
+   "options": [
+    "Please keep me posted on the shipment status.",
+    "Please keep posting me the status.",
+    "You keep me update please.",
+    "Please posting status to me."
+   ],
+   "answer": 0,
+   "example": "Please keep me posted on the shipment status this week.",
+   "exampleZh": "本週出貨進度請隨時告訴我。",
+   "id": "phrase:please keep me posted"
+  },
+  {
+   "word": "phrase:at your earliest convenience",
+   "type": "phrase",
+   "prompt": "情境：你希望對方在方便時盡快回覆確認，最自然的說法是？",
+   "options": [
+    "Please confirm at your earliest convenience.",
+    "Please confirm at your early convenient.",
+    "Confirm when you earliest can.",
+    "At earliest please you confirm."
+   ],
+   "answer": 0,
+   "example": "Please confirm the revised lead time at your earliest convenience.",
+   "exampleZh": "請在方便時盡快確認修訂後的交期。",
+   "id": "phrase:at your earliest convenience"
+  },
+  {
+   "word": "phrase:for your reference",
+   "type": "phrase",
+   "prompt": "情境：你寄附檔給對方當參考資料，最自然的說法是？",
+   "options": [
+    "I send file for you refer.",
+    "Please find the spec sheet for your reference.",
+    "For you reference please the sheet.",
+    "Reference you with this file please."
+   ],
+   "answer": 1,
+   "example": "Please find the latest spec sheet for your reference.",
+   "exampleZh": "最新規格表供您參考，請查收。",
+   "id": "phrase:for your reference"
+  }
+ ]
+}
