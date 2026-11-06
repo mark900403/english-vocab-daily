@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-07",
+ "questions": [
+  {
+   "word": "LCL",
+   "type": "meaning",
+   "prompt": "LCL",
+   "options": [
+    "併櫃海運（未滿一整櫃）",
+    "整櫃海運",
+    "空運快遞",
+    "門到門卡車配送"
+   ],
+   "answer": 0,
+   "example": "If the order is small, we can ship LCL instead of waiting to fill a full container.",
+   "exampleZh": "如果訂單量小，我們可以走併櫃，不必等湊滿一整櫃。",
+   "id": "LCL"
+  },
+  {
+   "word": "landed cost",
+   "type": "meaning",
+   "prompt": "landed cost",
+   "options": [
+    "到岸成本（含運費、關稅等）",
+    "工廠出廠價",
+    "僅含運費的報價",
+    "倉庫租金"
+   ],
+   "answer": 0,
+   "example": "Please include freight and duties so we can compare the true landed cost.",
+   "exampleZh": "請把運費與關稅一併列入，好讓我們比較真實的到岸成本。",
+   "id": "landed cost"
+  },
+  {
+   "word": "HS code",
+   "type": "meaning",
+   "prompt": "HS code",
+   "options": [
+    "商品稅則號列／關稅分類碼",
+    "追蹤號碼",
+    "採購單號碼",
+    "貨櫃編號"
+   ],
+   "answer": 0,
+   "example": "Customs asked us to confirm the correct HS code for this product.",
+   "exampleZh": "海關要求我們確認這個產品正確的稅則號列。",
+   "id": "HS code"
+  },
+  {
+   "word": "ASN",
+   "type": "meaning",
+   "prompt": "ASN",
+   "options": [
+    "預先出貨通知",
+    "到貨證明",
+    "商業發票",
+    "信用狀"
+   ],
+   "answer": 0,
+   "example": "Please send the ASN at least 24 hours before the truck arrives.",
+   "exampleZh": "請在卡車抵達前至少 24 小時寄出預先出貨通知。",
+   "id": "ASN"
+  },
+  {
+   "word": "POD",
+   "type": "meaning",
+   "prompt": "POD",
+   "options": [
+    "送達證明／簽收單",
+    "裝箱單",
+    "報價單",
+    "提單"
+   ],
+   "answer": 0,
+   "example": "We need the signed POD before we can close this delivery ticket.",
+   "exampleZh": "我們需要簽收的送達證明，才能結案這筆配送單。",
+   "id": "POD"
+  },
+  {
+   "word": "RFQ",
+   "type": "meaning",
+   "prompt": "RFQ",
+   "options": [
+    "詢價單／報價請求",
+    "採購訂單",
+    "出貨通知",
+    "退貨授權"
+   ],
+   "answer": 0,
+   "example": "We sent an RFQ to three suppliers and will compare their quotes next week.",
+   "exampleZh": "我們已向三家供應商發出詢價單，下週會比較報價。",
+   "id": "RFQ"
+  },
+  {
+   "word": "OTIF",
+   "type": "meaning",
+   "prompt": "OTIF",
+   "options": [
+    "準時且完整交貨率",
+    "最低訂購量",
+    "關稅稅率",
+    "倉儲週轉天數"
+   ],
+   "answer": 0,
+   "example": "Our vendor scorecard tracks OTIF for every purchase order.",
+   "exampleZh": "我們的供應商評分卡會追蹤每張採購單的準時且完整交貨率。",
+   "id": "OTIF"
+  },
+  {
+   "word": "phrase:please revise the quote",
+   "type": "phrase",
+   "prompt": "情境：報價有誤，你請廠商修正報價，最自然的說法是？",
+   "options": [
+    "Please revise the quote and send us an updated version.",
+    "Please remake the quote again to me.",
+    "You must fix quote and reply fast.",
+    "Please changing the quotation now."
+   ],
+   "answer": 0,
+   "example": "Please revise the quote and send us an updated version by Friday.",
+   "exampleZh": "請修正報價，並在週五前寄給我們更新版。",
+   "id": "phrase:please revise the quote"
+  },
+  {
+   "word": "phrase:please hold the shipment",
+   "type": "phrase",
+   "prompt": "情境：你要廠商先不要出貨、暫時扣住貨，最自然的說法是？",
+   "options": [
+    "Please hold the shipment until we confirm the new address.",
+    "Please stop goods and wait my say.",
+    "You holding the cargo please now.",
+    "Please don't shipping until I told."
+   ],
+   "answer": 0,
+   "example": "Please hold the shipment until we confirm the new delivery address.",
+   "exampleZh": "請先暫扣出貨，等我們確認新的送貨地址。",
+   "id": "phrase:please hold the shipment"
+  },
+  {
+   "word": "phrase:awaiting your confirmation",
+   "type": "phrase",
+   "prompt": "情境：你已提供方案，正在等對方確認，最自然的說法是？",
+   "options": [
+    "We are awaiting your confirmation so we can proceed with the order.",
+    "We waiting you confirm then start order.",
+    "Please confirm us then we doing.",
+    "We await that you confirming soon."
+   ],
+   "answer": 0,
+   "example": "We are awaiting your confirmation so we can proceed with the order.",
+   "exampleZh": "我們正等候您的確認，以便繼續處理訂單。",
+   "id": "phrase:awaiting your confirmation"
+  }
+ ]
+}
