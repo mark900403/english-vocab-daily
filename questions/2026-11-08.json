@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-08",
+ "questions": [
+  {
+   "word": "FOB",
+   "type": "meaning",
+   "prompt": "FOB",
+   "options": [
+    "船上交貨（買方承擔之後運費與風險）",
+    "目的地完稅交貨",
+    "工廠交貨",
+    "僅含保險的報價"
+   ],
+   "answer": 0,
+   "example": "Under FOB terms, the buyer arranges ocean freight after the goods are loaded on the vessel.",
+   "exampleZh": "在 FOB 條件下，貨物裝上船後，買方自行安排海運。",
+   "id": "FOB"
+  },
+  {
+   "word": "ETD",
+   "type": "meaning",
+   "prompt": "ETD",
+   "options": [
+    "預計離港／啟運時間",
+    "預計到港時間",
+    "實際簽收時間",
+    "報關放行時間"
+   ],
+   "answer": 0,
+   "example": "Please confirm the ETD so we can book the warehouse receiving slot.",
+   "exampleZh": "請確認預計啟運時間，方便我們預約倉庫收貨時段。",
+   "id": "ETD"
+  },
+  {
+   "word": "3PL",
+   "type": "meaning",
+   "prompt": "3PL",
+   "options": [
+    "第三方物流服務商",
+    "原廠直送倉庫",
+    "海關報關行",
+    "銀行信用狀單位"
+   ],
+   "answer": 0,
+   "example": "We hired a 3PL to handle storage and last-mile delivery for peak season.",
+   "exampleZh": "旺季期間我們請了第三方物流商處理倉儲與末端配送。",
+   "id": "3PL"
+  },
+  {
+   "word": "detention",
+   "type": "meaning",
+   "prompt": "detention",
+   "options": [
+    "貨櫃在門外滯留過久產生的費用",
+    "貨物毀損的保險理賠",
+    "提早出貨的加急費",
+    "倉庫儲位租金"
+   ],
+   "answer": 0,
+   "example": "If we keep the container too long after pickup, the carrier will charge detention.",
+   "exampleZh": "若提櫃後久不還櫃，船公司會收取滯留費。",
+   "id": "detention"
+  },
+  {
+   "word": "TEU",
+   "type": "meaning",
+   "prompt": "TEU",
+   "options": [
+    "二十呎標準櫃當量單位",
+    "四十呎冷凍櫃編號",
+    "空運提單號碼",
+    "稅則分類碼"
+   ],
+   "answer": 0,
+   "example": "The weekly volume is about 12 TEU across three suppliers.",
+   "exampleZh": "三家供應商加總，每週貨量大約是 12 個 TEU。",
+   "id": "TEU"
+  },
+  {
+   "word": "bonded warehouse",
+   "type": "meaning",
+   "prompt": "bonded warehouse",
+   "options": [
+    "保稅倉庫（貨物可暫存待完稅）",
+    "一般零售倉庫",
+    "僅存放退貨的倉庫",
+    "工廠線邊倉"
+   ],
+   "answer": 0,
+   "example": "We store the imported parts in a bonded warehouse until customs clearance is finished.",
+   "exampleZh": "進口零件先放在保稅倉庫，等報關完成再提領。",
+   "id": "bonded warehouse"
+  },
+  {
+   "word": "SLA",
+   "type": "meaning",
+   "prompt": "SLA",
+   "options": [
+    "服務水準協議（約定交期、回應時間等）",
+    "標準裝箱清單",
+    "海運附加費表",
+    "供應商評分卡"
+   ],
+   "answer": 0,
+   "example": "Our SLA requires the vendor to confirm every PO within one business day.",
+   "exampleZh": "依服務水準協議，供應商須在一個工作天內確認每張採購單。",
+   "id": "SLA"
+  },
+  {
+   "word": "phrase:please advise the vessel name",
+   "type": "phrase",
+   "prompt": "情境：你要廠商告知船名／航次以便追蹤，最自然的說法是？",
+   "options": [
+    "Please advise the vessel name and voyage number once booking is confirmed.",
+    "Please tell ship name to me after you booking.",
+    "You must saying the boat name quickly.",
+    "Please advise vesseling name when ready."
+   ],
+   "answer": 0,
+   "example": "Please advise the vessel name and voyage number once booking is confirmed.",
+   "exampleZh": "訂艙確認後，請告知船名與航次。",
+   "id": "phrase:please advise the vessel name"
+  },
+  {
+   "word": "phrase:we accept your quote",
+   "type": "phrase",
+   "prompt": "情境：你同意對方報價並準備下單，最自然的說法是？",
+   "options": [
+    "We accept your quote and will issue the purchase order today.",
+    "We agreeing your price and make order now.",
+    "Your quote is OK please doing PO.",
+    "We accept quoting and send buying soon."
+   ],
+   "answer": 0,
+   "example": "We accept your quote and will issue the purchase order today.",
+   "exampleZh": "我們接受您的報價，今天會開出採購單。",
+   "id": "phrase:we accept your quote"
+  },
+  {
+   "word": "phrase:please arrange pickup",
+   "type": "phrase",
+   "prompt": "情境：貨已備妥，請對方安排提貨，最自然的說法是？",
+   "options": [
+    "The goods are ready; please arrange pickup at your earliest convenience.",
+    "Goods ready please come take them fast.",
+    "You arrange picking up the cargo please now.",
+    "Please arrange for pickuping when you free."
+   ],
+   "answer": 0,
+   "example": "The goods are ready; please arrange pickup at your earliest convenience.",
+   "exampleZh": "貨物已備妥，請盡早安排提貨。",
+   "id": "phrase:please arrange pickup"
+  }
+ ]
+}
