@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-11",
+ "questions": [
+  {
+   "word": "shelf life",
+   "type": "meaning",
+   "prompt": "shelf life",
+   "options": [
+    "保存期限",
+    "運送時間",
+    "付款期限",
+    "保固期"
+   ],
+   "answer": 0,
+   "example": "This product has a shelf life of 12 months.",
+   "exampleZh": "這個產品的保存期限是12個月。",
+   "id": "shelf life"
+  },
+  {
+   "word": "lead-time quote",
+   "type": "meaning",
+   "prompt": "lead-time quote",
+   "options": [
+    "交期報價",
+    "折扣",
+    "退款",
+    "發票"
+   ],
+   "answer": 0,
+   "example": "Please send us a lead-time quote for 500 units.",
+   "exampleZh": "請提供500件的交期報價。",
+   "id": "lead-time quote"
+  },
+  {
+   "word": "consignment",
+   "type": "meaning",
+   "prompt": "consignment",
+   "options": [
+    "寄售、托運貨物",
+    "保險",
+    "稅金",
+    "樣品"
+   ],
+   "answer": 0,
+   "example": "The consignment will arrive at the port on Monday.",
+   "exampleZh": "這批託運貨物星期一會抵達港口。",
+   "id": "consignment"
+  },
+  {
+   "word": "back-to-back",
+   "type": "meaning",
+   "prompt": "back-to-back",
+   "options": [
+    "連續的、接續的",
+    "相反的",
+    "免費的",
+    "暫停的"
+   ],
+   "answer": 0,
+   "example": "We have back-to-back meetings with vendors today.",
+   "exampleZh": "我們今天和廠商的會議一場接一場。",
+   "id": "back-to-back"
+  },
+  {
+   "word": "reconcile",
+   "type": "meaning",
+   "prompt": "reconcile",
+   "options": [
+    "核對、使一致",
+    "取消",
+    "延遲",
+    "報價"
+   ],
+   "answer": 0,
+   "example": "Finance needs to reconcile the invoices with the purchase orders.",
+   "exampleZh": "財務需要把發票和採購單核對一致。",
+   "id": "reconcile"
+  },
+  {
+   "word": "shortfall",
+   "type": "meaning",
+   "prompt": "shortfall",
+   "options": [
+    "不足的數量",
+    "多餘的貨",
+    "折扣",
+    "運費"
+   ],
+   "answer": 0,
+   "example": "There is a shortfall of 200 cartons in this delivery.",
+   "exampleZh": "這次出貨短少200箱。",
+   "id": "shortfall"
+  },
+  {
+   "word": "acknowledge",
+   "type": "meaning",
+   "prompt": "acknowledge",
+   "options": [
+    "確認收到",
+    "拒絕",
+    "取消",
+    "延後"
+   ],
+   "answer": 0,
+   "example": "Please acknowledge receipt of this email.",
+   "exampleZh": "請回覆確認收到這封信。",
+   "id": "acknowledge"
+  },
+  {
+   "word": "phrase:could you please confirm the quantity",
+   "type": "phrase",
+   "prompt": "情境：你想請供應商確認訂購數量，最自然的說法是？",
+   "options": [
+    "Could you please confirm the quantity on the order?",
+    "Can you confirm quantity order please?",
+    "Please you confirm the order quantity is?",
+    "Could you confirmed the quantity?"
+   ],
+   "answer": 0,
+   "example": "Could you please confirm the quantity on the order?",
+   "exampleZh": "可以請你確認訂單上的數量嗎？",
+   "id": "phrase:could you please confirm the quantity"
+  },
+  {
+   "word": "phrase:we'd like to reschedule",
+   "type": "phrase",
+   "prompt": "情境：你想把和廠商的會議改期，最自然的說法是？",
+   "options": [
+    "We'd like to reschedule our meeting to Friday.",
+    "We want change meeting to Friday time.",
+    "We would like reschedule the meeting at Friday.",
+    "Our meeting is rescheduling to Friday."
+   ],
+   "answer": 0,
+   "example": "We'd like to reschedule our meeting to Friday.",
+   "exampleZh": "我們想把會議改到星期五。",
+   "id": "phrase:we'd like to reschedule"
+  },
+  {
+   "word": "phrase:i apologize for the confusion",
+   "type": "phrase",
+   "prompt": "情境：你想為造成對方誤會道歉，最自然的說法是？",
+   "options": [
+    "I apologize for the confusion in my last email.",
+    "I'm sorry for I confuse you in email.",
+    "Sorry my last email was confusing you.",
+    "I apologize the confused email."
+   ],
+   "answer": 0,
+   "example": "I apologize for the confusion in my last email.",
+   "exampleZh": "我為上一封信造成的混淆致歉。",
+   "id": "phrase:i apologize for the confusion"
+  }
+ ]
+}
