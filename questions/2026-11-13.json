@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-13",
+ "questions": [
+  {
+   "word": "liability",
+   "type": "meaning",
+   "prompt": "liability",
+   "options": [
+    "利潤",
+    "責任（法律上的）",
+    "倉庫",
+    "樣品"
+   ],
+   "answer": 1,
+   "example": "The supplier accepts liability for damaged goods.",
+   "exampleZh": "供應商對損壞的貨物負責。",
+   "id": "liability"
+  },
+  {
+   "word": "compliance",
+   "type": "meaning",
+   "prompt": "compliance",
+   "options": [
+    "包裝",
+    "折扣",
+    "延遲",
+    "合規"
+   ],
+   "answer": 3,
+   "example": "Please send the compliance certificate with the goods.",
+   "exampleZh": "請隨貨附上合規證明。",
+   "id": "compliance"
+  },
+  {
+   "word": "bulk discount",
+   "type": "meaning",
+   "prompt": "bulk discount",
+   "options": [
+    "退貨",
+    "保證金",
+    "大量採購折扣",
+    "運費"
+   ],
+   "answer": 2,
+   "example": "We can offer a bulk discount for orders over 1,000 units.",
+   "exampleZh": "訂購超過1,000件，我們可以提供量大折扣。",
+   "id": "bulk discount"
+  },
+  {
+   "word": "reorder point",
+   "type": "meaning",
+   "prompt": "reorder point",
+   "options": [
+    "關稅",
+    "付款日",
+    "再訂購點（庫存低於此量就要補貨）",
+    "出貨日"
+   ],
+   "answer": 2,
+   "example": "The reorder point for this item is 200 units.",
+   "exampleZh": "這個品項的再訂購點是200件。",
+   "id": "reorder point"
+  },
+  {
+   "word": "pending approval",
+   "type": "meaning",
+   "prompt": "pending approval",
+   "options": [
+    "待核准",
+    "已付款",
+    "已出貨",
+    "已取消"
+   ],
+   "answer": 0,
+   "example": "Your order is pending approval from our manager.",
+   "exampleZh": "您的訂單正等待我們經理核准。",
+   "id": "pending approval"
+  },
+  {
+   "word": "lead time extension",
+   "type": "meaning",
+   "prompt": "lead time extension",
+   "options": [
+    "庫存增加",
+    "價格調降",
+    "數量減少",
+    "交期延長"
+   ],
+   "answer": 3,
+   "example": "We received a lead time extension notice from the vendor.",
+   "exampleZh": "我們收到供應商的交期延長通知。",
+   "id": "lead time extension"
+  },
+  {
+   "word": "shipping notice",
+   "type": "meaning",
+   "prompt": "shipping notice",
+   "options": [
+    "報價單",
+    "合約",
+    "出貨通知",
+    "發票"
+   ],
+   "answer": 2,
+   "example": "We will send the shipping notice once the cargo leaves the port.",
+   "exampleZh": "貨物離港後我們會寄出出貨通知。",
+   "id": "shipping notice"
+  },
+  {
+   "word": "phrase:could you give me a rough estimate",
+   "type": "phrase",
+   "prompt": "情境：你想請供應商大概估一下交期，最自然的說法是？",
+   "options": [
+    "Could you giving me rough estimate?",
+    "Can you estimate to me the lead?",
+    "Could you give me a rough estimate of the lead time?",
+    "You give me estimate rough lead time?"
+   ],
+   "answer": 2,
+   "example": "Could you give me a rough estimate of the lead time?",
+   "exampleZh": "可以請你大概估一下交期嗎？",
+   "id": "phrase:could you give me a rough estimate"
+  },
+  {
+   "word": "phrase:i'd like to confirm the order details",
+   "type": "phrase",
+   "prompt": "情境：你想跟供應商再確認訂單細節，最自然的說法是？",
+   "options": [
+    "I'd like confirm to the order detail.",
+    "I'd like to confirm the order details.",
+    "I want confirming order detail.",
+    "I like confirm the details of order."
+   ],
+   "answer": 1,
+   "example": "I'd like to confirm the order details.",
+   "exampleZh": "我想確認一下訂單細節。",
+   "id": "phrase:i'd like to confirm the order details"
+  },
+  {
+   "word": "phrase:we are running short of stock",
+   "type": "phrase",
+   "prompt": "情境：你想告訴供應商你們庫存快不夠了，最自然的說法是？",
+   "options": [
+    "We run short of the stocks are.",
+    "Our stock is run short.",
+    "We are running short on stock.",
+    "We are running shorting stock."
+   ],
+   "answer": 2,
+   "example": "We are running short of stock, so we need a rush order.",
+   "exampleZh": "我們庫存快不夠了，所以需要急單。",
+   "id": "phrase:we are running short of stock"
+  }
+ ]
+}
