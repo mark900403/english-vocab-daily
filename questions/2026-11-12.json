@@ -6,12 +6,12 @@
    "type": "meaning",
    "prompt": "turnaround",
    "options": [
-    "週轉時間（從接單到完成）",
-    "退款",
     "保證金",
-    "關稅"
+    "關稅",
+    "週轉時間（從接單到完成）",
+    "退款"
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "Our turnaround for samples is five working days.",
    "exampleZh": "我們樣品的週轉時間是五個工作天。",
    "id": "turnaround"
@@ -21,12 +21,12 @@
    "type": "meaning",
    "prompt": "on hold",
    "options": [
-    "暫停中",
     "已出貨",
+    "暫停中",
     "已付款",
     "已退回"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "The order is on hold until we receive the deposit.",
    "exampleZh": "在收到訂金前，訂單會暫停處理。",
    "id": "on hold"
@@ -36,12 +36,12 @@
    "type": "meaning",
    "prompt": "quote",
    "options": [
-    "報價",
-    "退貨",
+    "收據",
     "包裝",
-    "收據"
+    "退貨",
+    "報價"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "Please send us a quote for 500 cartons.",
    "exampleZh": "請提供500個紙箱的報價。",
    "id": "quote"
@@ -51,12 +51,12 @@
    "type": "meaning",
    "prompt": "supply chain",
    "options": [
-    "供應鏈",
-    "價目表",
     "出貨單",
-    "倉庫"
+    "價目表",
+    "倉庫",
+    "供應鏈"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "The supply chain was affected by the port strike.",
    "exampleZh": "供應鏈受到港口罷工影響。",
    "id": "supply chain"
@@ -66,12 +66,12 @@
    "type": "meaning",
    "prompt": "tracking update",
    "options": [
-    "物流追蹤更新",
-    "品質證書",
     "付款提醒",
-    "合約條款"
+    "合約條款",
+    "品質證書",
+    "物流追蹤更新"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "Could you send a tracking update for the shipment?",
    "exampleZh": "可以請你提供這批貨的物流追蹤更新嗎？",
    "id": "tracking update"
@@ -81,12 +81,12 @@
    "type": "meaning",
    "prompt": "stockout",
    "options": [
-    "缺貨",
-    "折扣",
     "保險",
-    "簽收"
+    "缺貨",
+    "簽收",
+    "折扣"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "A stockout at the supplier delayed our order.",
    "exampleZh": "供應商缺貨導致我們的訂單延遲。",
    "id": "stockout"
@@ -97,9 +97,9 @@
    "prompt": "revision",
    "options": [
     "修訂版",
+    "期限",
     "運費",
-    "樣品",
-    "期限"
+    "樣品"
    ],
    "answer": 0,
    "example": "Please send the revision of the contract today.",
@@ -111,12 +111,12 @@
    "type": "phrase",
    "prompt": "情境：你想請供應商寄來更新後的發票，最自然的說法是？",
    "options": [
-    "Could you send me the updated invoice?",
+    "You send me the invoice updated?",
     "Can you send invoice update me?",
     "Could you sending me updated invoice?",
-    "You send me the invoice updated?"
+    "Could you send me the updated invoice?"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "Could you send me the updated invoice?",
    "exampleZh": "可以請你寄給我更新後的發票嗎？",
    "id": "phrase:could you send me the updated invoice"
@@ -126,12 +126,12 @@
    "type": "phrase",
    "prompt": "情境：你要禮貌地告訴廠商你們無法接受這個交期，最自然的說法是？",
    "options": [
-    "I'm afraid we are unable to accept this delivery date.",
     "We are not able accept the date delivery.",
-    "I'm afraid we unable accept this date.",
-    "We can't to accept this delivery."
+    "We can't to accept this delivery.",
+    "I'm afraid we are unable to accept this delivery date.",
+    "I'm afraid we unable accept this date."
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "I'm afraid we are unable to accept this delivery date.",
    "exampleZh": "恐怕我們無法接受這個交貨日期。",
    "id": "phrase:we are unable to"
@@ -141,12 +141,12 @@
    "type": "phrase",
    "prompt": "情境：廠商很快回覆了你的信，你想表示感謝，最自然的說法是？",
    "options": [
-    "Thank you for your prompt reply.",
     "Thanks for you fast reply to me.",
-    "Thank you for reply promptly of you.",
-    "I thank your prompt replying."
+    "Thank you for your prompt reply.",
+    "I thank your prompt replying.",
+    "Thank you for reply promptly of you."
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Thank you for your prompt reply.",
    "exampleZh": "謝謝你迅速的回覆。",
    "id": "phrase:thank you for your prompt reply"

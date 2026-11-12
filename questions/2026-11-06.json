@@ -7,9 +7,9 @@
    "prompt": "SKU",
    "options": [
     "庫存單位／品項代碼",
+    "報關單",
     "運費發票",
-    "付款條件",
-    "報關單"
+    "付款條件"
    ],
    "answer": 0,
    "example": "Please confirm the SKU and quantity before we issue the purchase order.",
@@ -22,9 +22,9 @@
    "prompt": "tariff",
    "options": [
     "關稅",
-    "棧板費",
     "運費折扣",
-    "倉儲租金"
+    "倉儲租金",
+    "棧板費"
    ],
    "answer": 0,
    "example": "The new tariff will raise the landed cost of goods from that country.",
@@ -36,12 +36,12 @@
    "type": "meaning",
    "prompt": "safety stock",
    "options": [
-    "安全庫存",
-    "瑕疵品",
     "樣品庫存",
-    "退貨庫存"
+    "退貨庫存",
+    "瑕疵品",
+    "安全庫存"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "We keep two weeks of safety stock in case of shipping delays.",
    "exampleZh": "我們保有兩週的安全庫存，以防出貨延遲。",
    "id": "safety stock"
@@ -51,12 +51,12 @@
    "type": "meaning",
    "prompt": "letter of credit",
    "options": [
-    "信用狀",
-    "到貨證明",
+    "詢價單",
     "裝箱單",
-    "詢價單"
+    "信用狀",
+    "到貨證明"
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "The supplier will ship only after they receive our letter of credit.",
    "exampleZh": "供應商要收到我們的信用狀後才會出貨。",
    "id": "letter of credit"
@@ -67,9 +67,9 @@
    "prompt": "FCL",
    "options": [
     "整櫃海運",
-    "快遞空運",
+    "小批量空運",
     "門到門配送",
-    "小批量空運"
+    "快遞空運"
    ],
    "answer": 0,
    "example": "For this volume, FCL is cheaper than shipping several LCL loads.",
@@ -81,12 +81,12 @@
    "type": "meaning",
    "prompt": "bottleneck",
    "options": [
+    "交貨碼頭",
     "瓶頸／卡關環節",
     "最低訂購量",
-    "運費加價",
-    "交貨碼頭"
+    "運費加價"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Customs clearance is the bottleneck delaying our current shipments.",
    "exampleZh": "報關是目前延誤出貨的瓶頸。",
    "id": "bottleneck"
@@ -96,12 +96,12 @@
    "type": "meaning",
    "prompt": "traceability",
    "options": [
-    "可追溯性",
     "運輸保險",
+    "可追溯性",
     "庫存週轉",
     "品質抽檢"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "We need full lot traceability for every carton in this shipment.",
    "exampleZh": "這批貨每一箱都需要完整的批號可追溯性。",
    "id": "traceability"
@@ -112,9 +112,9 @@
    "prompt": "情境：你請廠商有最新進度時隨時告訴你，最自然的說法是？",
    "options": [
     "Please keep me posted on the shipment status.",
-    "Please keep posting me the status.",
     "You keep me update please.",
-    "Please posting status to me."
+    "Please posting status to me.",
+    "Please keep posting me the status."
    ],
    "answer": 0,
    "example": "Please keep me posted on the shipment status this week.",
@@ -141,12 +141,12 @@
    "type": "phrase",
    "prompt": "情境：你寄附檔給對方當參考資料，最自然的說法是？",
    "options": [
-    "I send file for you refer.",
     "Please find the spec sheet for your reference.",
-    "For you reference please the sheet.",
-    "Reference you with this file please."
+    "I send file for you refer.",
+    "Reference you with this file please.",
+    "For you reference please the sheet."
    ],
-   "answer": 1,
+   "answer": 0,
    "example": "Please find the latest spec sheet for your reference.",
    "exampleZh": "最新規格表供您參考，請查收。",
    "id": "phrase:for your reference"

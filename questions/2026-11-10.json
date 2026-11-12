@@ -6,12 +6,12 @@
    "type": "meaning",
    "prompt": "pending",
    "options": [
-    "待處理的、未決的",
-    "已完成的",
+    "免費的",
     "已取消的",
-    "免費的"
+    "已完成的",
+    "待處理的、未決的"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "The payment is still pending approval.",
    "exampleZh": "這筆付款仍在等待核准。",
    "id": "pending"
@@ -21,12 +21,12 @@
    "type": "meaning",
    "prompt": "shipping line",
    "options": [
-    "船公司",
-    "快遞員",
     "倉庫經理",
-    "報關行"
+    "船公司",
+    "報關行",
+    "快遞員"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "The shipping line changed the vessel schedule.",
    "exampleZh": "船公司更改了船期。",
    "id": "shipping line"
@@ -36,12 +36,12 @@
    "type": "meaning",
    "prompt": "goods receipt",
    "options": [
+    "報價單",
     "收貨單／收貨確認",
     "退款通知",
-    "報價單",
     "合約"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Please send us the goods receipt after unloading.",
    "exampleZh": "卸貨後請寄給我們收貨確認。",
    "id": "goods receipt"
@@ -51,12 +51,12 @@
    "type": "meaning",
    "prompt": "batch",
    "options": [
-    "批次",
-    "稅金",
     "價格",
-    "目的地"
+    "批次",
+    "目的地",
+    "稅金"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "This batch passed the quality check.",
    "exampleZh": "這一批通過了品質檢驗。",
    "id": "batch"
@@ -66,12 +66,12 @@
    "type": "meaning",
    "prompt": "urgent",
    "options": [
+    "舊的",
     "緊急的",
     "可選的",
-    "便宜的",
-    "舊的"
+    "便宜的"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "This is an urgent order, so please prioritize it.",
    "exampleZh": "這是緊急訂單，請優先處理。",
    "id": "urgent"
@@ -82,9 +82,9 @@
    "prompt": "shipping address",
    "options": [
     "收貨地址",
-    "發票號碼",
     "付款方式",
-    "貨櫃尺寸"
+    "貨櫃尺寸",
+    "發票號碼"
    ],
    "answer": 0,
    "example": "Please confirm the shipping address before dispatch.",
@@ -96,12 +96,12 @@
    "type": "meaning",
    "prompt": "confirmation email",
    "options": [
-    "確認信",
     "廣告信",
     "退貨單",
-    "出差申請"
+    "出差申請",
+    "確認信"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "We sent you a confirmation email yesterday.",
    "exampleZh": "我們昨天寄了確認信給您。",
    "id": "confirmation email"
@@ -111,12 +111,12 @@
    "type": "phrase",
    "prompt": "情境：你想問供應商大量訂購能不能給折扣，最自然的說法是？",
    "options": [
-    "Could we get a discount if we order in bulk?",
+    "Is bulk order have discount?",
     "Can we discount you for big order?",
     "Do you discount we order many?",
-    "Is bulk order have discount?"
+    "Could we get a discount if we order in bulk?"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "Could we get a discount if we order in bulk?",
    "exampleZh": "如果我們大量訂購，可以有折扣嗎？",
    "id": "phrase:could we get a discount"
@@ -127,9 +127,9 @@
    "prompt": "情境：你想說公司正在找新供應商，最自然的說法是？",
    "options": [
     "We are looking for a new supplier for packaging.",
-    "We look for a new supplier of packaging now.",
+    "We finding new supplier packaging.",
     "We are looked a new packaging supplier.",
-    "We finding new supplier packaging."
+    "We look for a new supplier of packaging now."
    ],
    "answer": 0,
    "example": "We are looking for a new supplier for packaging materials.",
@@ -141,12 +141,12 @@
    "type": "phrase",
    "prompt": "情境：你想告訴廠商貨到時已損壞，最自然的說法是？",
    "options": [
-    "The package arrived damaged. Could you send a replacement?",
-    "The package is arrive damage. Send replace?",
+    "Package damaged arrived, please replacement.",
     "The package was arrive damaged, you replace?",
-    "Package damaged arrived, please replacement."
+    "The package is arrive damage. Send replace?",
+    "The package arrived damaged. Could you send a replacement?"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "The package arrived damaged. Could you send a replacement?",
    "exampleZh": "包裹到貨時已損壞，可以寄替代品嗎？",
    "id": "phrase:the package arrived damaged"

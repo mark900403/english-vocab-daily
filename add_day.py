@@ -4,7 +4,7 @@ Theme: workplace + global supply chain vendors (inquiries, quotes, lead times, M
 new.json = {"questions":[...10 items same schema as questions/2026-10-21.json...]}
 Validates: 10 questions, 4 options, answer 0-3, no word reused from earlier days. Writes questions/DATE.json and updates manifest.json.
 `python3 add_day.py --used` prints all used words."""
-import json,sys,os,datetime
+import json,sys,os,datetime,random
 D=os.path.join(os.path.dirname(os.path.abspath(__file__)),'questions')
 m=json.load(open(f'{D}/manifest.json'))
 used={q['word'].lower() for d in m['days'] for q in json.load(open(f'{D}/{d}.json'))['questions']}
@@ -19,6 +19,7 @@ for q in qs:
     assert len(q['options'])==4 and 0<=q['answer']<=3, q
     assert q['word'].lower() not in used, 'repeat: '+q['word']
     q.setdefault('id',q['word'])
+    c=q['options'][q['answer']]; random.shuffle(q['options']); q['answer']=q['options'].index(c)  # spread correct answers across A-D
 json.dump({'date':date,'questions':qs},open(f'{D}/{date}.json','w'),ensure_ascii=False,indent=1)
 if date not in m['days']: m['days'].append(date); m['days'].sort()
 json.dump(m,open(f'{D}/manifest.json','w'))

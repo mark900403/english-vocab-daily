@@ -6,12 +6,12 @@
    "type": "meaning",
    "prompt": "EXW (Ex Works)",
    "options": [
+    "含保險的到岸價",
     "工廠交貨（買方自行負責提貨後的運輸）",
-    "賣方負擔到港運費",
     "貨到付款",
-    "含保險的到岸價"
+    "賣方負擔到港運費"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "The price is EXW, so we need to arrange pickup from the factory.",
    "exampleZh": "價格是 EXW，所以我們要自己安排到工廠提貨。",
    "id": "ex-works"
@@ -21,12 +21,12 @@
    "type": "meaning",
    "prompt": "lot",
    "options": [
-    "一批（同一生產批次的貨）",
     "一種付款方式",
-    "一張發票",
-    "一個港口"
+    "一批（同一生產批次的貨）",
+    "一個港口",
+    "一張發票"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Each lot has its own batch number for traceability.",
    "exampleZh": "每一批都有各自的批號以便追溯。",
    "id": "lot"
@@ -36,12 +36,12 @@
    "type": "meaning",
    "prompt": "tolerance（數量／規格）",
    "options": [
-    "允許的誤差範圍",
     "一種關稅",
     "折扣",
-    "保固期"
+    "保固期",
+    "允許的誤差範圍"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "We accept a quantity tolerance of plus or minus 5 percent.",
    "exampleZh": "我們接受數量正負 5% 的誤差。",
    "id": "tolerance"
@@ -51,12 +51,12 @@
    "type": "meaning",
    "prompt": "remittance",
    "options": [
-    "匯款",
     "退貨",
+    "報價",
     "運費",
-    "報價"
+    "匯款"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "We will send the remittance advice once the transfer is done.",
    "exampleZh": "轉帳完成後我們會寄出匯款通知。",
    "id": "remittance"
@@ -66,12 +66,12 @@
    "type": "meaning",
    "prompt": "rework",
    "options": [
+    "取消訂單",
     "重工／返工修正",
     "重新報價",
-    "取消訂單",
     "延後出貨"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "The vendor agreed to rework the defective units at no cost.",
    "exampleZh": "廠商同意免費重工瑕疵品。",
    "id": "rework"
@@ -81,12 +81,12 @@
    "type": "meaning",
    "prompt": "allocation（庫存）",
    "options": [
-    "配貨（有限貨量分配給客戶）",
     "付款期限",
+    "配貨（有限貨量分配給客戶）",
     "包裝材料",
     "報關文件"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Due to shortages, we only have a small allocation for your order.",
    "exampleZh": "由於缺貨，你們的訂單只能分到少量配貨。",
    "id": "allocation"
@@ -96,12 +96,12 @@
    "type": "meaning",
    "prompt": "pro forma（形容詞）",
    "options": [
+    "已過期的",
     "預估性、非正式的（供預先核准用）",
-    "最終確定的",
     "已付款的",
-    "已過期的"
+    "最終確定的"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Please send a pro forma quote so we can get internal approval.",
    "exampleZh": "請寄預估報價單，我們好取得內部核准。",
    "id": "pro forma"
@@ -111,12 +111,12 @@
    "type": "phrase",
    "prompt": "情境：你想正式請廠商提供樣品，最自然的說法是？",
    "options": [
-    "We would like to request a sample before placing a bulk order.",
     "We want request sample before we ordering big.",
-    "Please you give sample for we.",
-    "We would like requesting sample of before order."
+    "We would like requesting sample of before order.",
+    "We would like to request a sample before placing a bulk order.",
+    "Please you give sample for we."
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "We would like to request a sample before placing a bulk order.",
    "exampleZh": "我們想在大量下單前先索取樣品。",
    "id": "phrase:we would like to request"
@@ -126,12 +126,12 @@
    "type": "phrase",
    "prompt": "情境：你看不懂廠商的報價明細，請對方逐項說明。",
    "options": [
-    "Could you walk me through the cost breakdown?",
-    "Could you walking me the cost breakdown?",
     "Please explain me about cost break down it.",
-    "Could you tell through me the breakdown cost?"
+    "Could you walk me through the cost breakdown?",
+    "Could you tell through me the breakdown cost?",
+    "Could you walking me the cost breakdown?"
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "Could you walk me through the cost breakdown?",
    "exampleZh": "可以請你帶我看一下成本明細嗎？",
    "id": "phrase:could you walk me through"
@@ -141,12 +141,12 @@
    "type": "phrase",
    "prompt": "情境：你需要廠商盡快回覆，語氣禮貌。",
    "options": [
-    "We'd appreciate a prompt reply, as the deadline is approaching.",
-    "We appreciating fast reply because deadline is come.",
     "Reply to us quick, deadline near.",
-    "We'd appreciate prompt replying as deadline approaching."
+    "We'd appreciate a prompt reply, as the deadline is approaching.",
+    "We'd appreciate prompt replying as deadline approaching.",
+    "We appreciating fast reply because deadline is come."
    ],
-   "answer": 0,
+   "answer": 1,
    "example": "We'd appreciate a prompt reply, as the deadline is approaching.",
    "exampleZh": "由於期限將近，若能盡快回覆我們將不勝感激。",
    "id": "phrase:we'd appreciate a prompt reply"

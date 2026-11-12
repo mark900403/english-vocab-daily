@@ -6,12 +6,12 @@
    "type": "meaning",
    "prompt": "FOB",
    "options": [
-    "船上交貨（買方承擔之後運費與風險）",
-    "目的地完稅交貨",
     "工廠交貨",
+    "目的地完稅交貨",
+    "船上交貨（買方承擔之後運費與風險）",
     "僅含保險的報價"
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "Under FOB terms, the buyer arranges ocean freight after the goods are loaded on the vessel.",
    "exampleZh": "在 FOB 條件下，貨物裝上船後，買方自行安排海運。",
    "id": "FOB"
@@ -22,9 +22,9 @@
    "prompt": "ETD",
    "options": [
     "預計離港／啟運時間",
-    "預計到港時間",
     "實際簽收時間",
-    "報關放行時間"
+    "報關放行時間",
+    "預計到港時間"
    ],
    "answer": 0,
    "example": "Please confirm the ETD so we can book the warehouse receiving slot.",
@@ -37,9 +37,9 @@
    "prompt": "3PL",
    "options": [
     "第三方物流服務商",
-    "原廠直送倉庫",
     "海關報關行",
-    "銀行信用狀單位"
+    "銀行信用狀單位",
+    "原廠直送倉庫"
    ],
    "answer": 0,
    "example": "We hired a 3PL to handle storage and last-mile delivery for peak season.",
@@ -51,12 +51,12 @@
    "type": "meaning",
    "prompt": "detention",
    "options": [
-    "貨櫃在門外滯留過久產生的費用",
     "貨物毀損的保險理賠",
+    "倉庫儲位租金",
     "提早出貨的加急費",
-    "倉庫儲位租金"
+    "貨櫃在門外滯留過久產生的費用"
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "If we keep the container too long after pickup, the carrier will charge detention.",
    "exampleZh": "若提櫃後久不還櫃，船公司會收取滯留費。",
    "id": "detention"
@@ -66,12 +66,12 @@
    "type": "meaning",
    "prompt": "TEU",
    "options": [
-    "二十呎標準櫃當量單位",
-    "四十呎冷凍櫃編號",
     "空運提單號碼",
-    "稅則分類碼"
+    "稅則分類碼",
+    "二十呎標準櫃當量單位",
+    "四十呎冷凍櫃編號"
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "The weekly volume is about 12 TEU across three suppliers.",
    "exampleZh": "三家供應商加總，每週貨量大約是 12 個 TEU。",
    "id": "TEU"
@@ -81,12 +81,12 @@
    "type": "meaning",
    "prompt": "bonded warehouse",
    "options": [
-    "保稅倉庫（貨物可暫存待完稅）",
+    "工廠線邊倉",
     "一般零售倉庫",
-    "僅存放退貨的倉庫",
-    "工廠線邊倉"
+    "保稅倉庫（貨物可暫存待完稅）",
+    "僅存放退貨的倉庫"
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "We store the imported parts in a bonded warehouse until customs clearance is finished.",
    "exampleZh": "進口零件先放在保稅倉庫，等報關完成再提領。",
    "id": "bonded warehouse"
@@ -97,8 +97,8 @@
    "prompt": "SLA",
    "options": [
     "服務水準協議（約定交期、回應時間等）",
-    "標準裝箱清單",
     "海運附加費表",
+    "標準裝箱清單",
     "供應商評分卡"
    ],
    "answer": 0,
@@ -112,9 +112,9 @@
    "prompt": "情境：你要廠商告知船名／航次以便追蹤，最自然的說法是？",
    "options": [
     "Please advise the vessel name and voyage number once booking is confirmed.",
-    "Please tell ship name to me after you booking.",
+    "Please advise vesseling name when ready.",
     "You must saying the boat name quickly.",
-    "Please advise vesseling name when ready."
+    "Please tell ship name to me after you booking."
    ],
    "answer": 0,
    "example": "Please advise the vessel name and voyage number once booking is confirmed.",
@@ -126,12 +126,12 @@
    "type": "phrase",
    "prompt": "情境：你同意對方報價並準備下單，最自然的說法是？",
    "options": [
-    "We accept your quote and will issue the purchase order today.",
+    "We accept quoting and send buying soon.",
     "We agreeing your price and make order now.",
-    "Your quote is OK please doing PO.",
-    "We accept quoting and send buying soon."
+    "We accept your quote and will issue the purchase order today.",
+    "Your quote is OK please doing PO."
    ],
-   "answer": 0,
+   "answer": 2,
    "example": "We accept your quote and will issue the purchase order today.",
    "exampleZh": "我們接受您的報價，今天會開出採購單。",
    "id": "phrase:we accept your quote"
@@ -141,12 +141,12 @@
    "type": "phrase",
    "prompt": "情境：貨已備妥，請對方安排提貨，最自然的說法是？",
    "options": [
-    "The goods are ready; please arrange pickup at your earliest convenience.",
-    "Goods ready please come take them fast.",
     "You arrange picking up the cargo please now.",
-    "Please arrange for pickuping when you free."
+    "Please arrange for pickuping when you free.",
+    "Goods ready please come take them fast.",
+    "The goods are ready; please arrange pickup at your earliest convenience."
    ],
-   "answer": 0,
+   "answer": 3,
    "example": "The goods are ready; please arrange pickup at your earliest convenience.",
    "exampleZh": "貨物已備妥，請盡早安排提貨。",
    "id": "phrase:please arrange pickup"
