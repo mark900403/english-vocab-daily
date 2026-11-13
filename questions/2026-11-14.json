@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-14",
+ "questions": [
+  {
+   "word": "lead-time slip",
+   "type": "meaning",
+   "prompt": "slip (n., 交期 slip)",
+   "options": [
+    "簽名",
+    "樣品",
+    "交期延後",
+    "折扣"
+   ],
+   "answer": 2,
+   "example": "A two-week slip in delivery will affect our launch.",
+   "exampleZh": "交貨延後兩週會影響我們的上線。",
+   "id": "lead-time slip"
+  },
+  {
+   "word": "mill certificate",
+   "type": "meaning",
+   "prompt": "mill certificate",
+   "options": [
+    "保險單",
+    "報關單",
+    "付款收據",
+    "材質證明書"
+   ],
+   "answer": 3,
+   "example": "Please attach the mill certificate to the shipment.",
+   "exampleZh": "請將材質證明書附在貨物上。",
+   "id": "mill certificate"
+  },
+  {
+   "word": "stipulate",
+   "type": "meaning",
+   "prompt": "stipulate",
+   "options": [
+    "退款",
+    "規定、約定",
+    "拒絕",
+    "延遲"
+   ],
+   "answer": 1,
+   "example": "The contract stipulates payment within 30 days.",
+   "exampleZh": "合約規定30天內付款。",
+   "id": "stipulate"
+  },
+  {
+   "word": "unit cost",
+   "type": "meaning",
+   "prompt": "unit cost",
+   "options": [
+    "庫存量",
+    "總運費",
+    "單位成本",
+    "保固期"
+   ],
+   "answer": 2,
+   "example": "Our unit cost went up by 5 percent.",
+   "exampleZh": "我們的單位成本上漲了5%。",
+   "id": "unit cost"
+  },
+  {
+   "word": "fulfill",
+   "type": "meaning",
+   "prompt": "fulfill (an order)",
+   "options": [
+    "履行、完成",
+    "修改",
+    "延期",
+    "取消"
+   ],
+   "answer": 0,
+   "example": "We can fulfill this order by Friday.",
+   "exampleZh": "我們可以在週五前完成這張訂單。",
+   "id": "fulfill"
+  },
+  {
+   "word": "airway bill",
+   "type": "meaning",
+   "prompt": "airway bill",
+   "options": [
+    "空運提單",
+    "採購單",
+    "報價單",
+    "水電費帳單"
+   ],
+   "answer": 0,
+   "example": "The airway bill number is in the email.",
+   "exampleZh": "空運提單號碼在郵件裡。",
+   "id": "airway bill"
+  },
+  {
+   "word": "reschedule delivery",
+   "type": "meaning",
+   "prompt": "reschedule (delivery)",
+   "options": [
+    "確認",
+    "改期",
+    "計價",
+    "拒收"
+   ],
+   "answer": 1,
+   "example": "Can we reschedule the delivery to Monday?",
+   "exampleZh": "我們可以把送貨改到週一嗎？",
+   "id": "reschedule delivery"
+  },
+  {
+   "word": "phrase:could you kindly confirm",
+   "type": "phrase",
+   "prompt": "情境：你想禮貌地請廠商確認收到訂單，最自然的說法是？",
+   "options": [
+    "You confirm receive order?",
+    "Please you confirm we order?",
+    "Could you kindly confirming our order receive?",
+    "Could you kindly confirm that you received our order?"
+   ],
+   "answer": 3,
+   "example": "Could you kindly confirm that you received our order?",
+   "exampleZh": "可以請你確認有收到我們的訂單嗎？",
+   "id": "phrase:could you kindly confirm"
+  },
+  {
+   "word": "phrase:we would like to know why",
+   "type": "phrase",
+   "prompt": "情境：貨遲到了，你想問原因，最自然的說法是？",
+   "options": [
+    "Tell us the late reason shipment.",
+    "We would like know why shipment late is.",
+    "We would like to know why the shipment is late.",
+    "Why is late the shipment, we want know."
+   ],
+   "answer": 2,
+   "example": "We would like to know why the shipment is late.",
+   "exampleZh": "我們想知道為什麼貨會延遲。",
+   "id": "phrase:we would like to know why"
+  },
+  {
+   "word": "phrase:the deadline is tight",
+   "type": "phrase",
+   "prompt": "情境：你告訴主管時程很趕，最自然的說法是？",
+   "options": [
+    "The deadline are tight so we move need.",
+    "Deadline is tightly we need fast move.",
+    "Tight is deadline, fast we need.",
+    "The deadline is tight, so we need to move fast."
+   ],
+   "answer": 3,
+   "example": "The deadline is tight, so we need to move fast.",
+   "exampleZh": "時程很緊，所以我們得加快。",
+   "id": "phrase:the deadline is tight"
+  }
+ ]
+}
