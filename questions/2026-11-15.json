@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-15",
+ "questions": [
+  {
+   "word": "lot size",
+   "type": "meaning",
+   "prompt": "lot size (n.)",
+   "options": [
+    "運費",
+    "批量大小",
+    "保固",
+    "簽名"
+   ],
+   "answer": 1,
+   "example": "The minimum lot size is 500 units.",
+   "exampleZh": "最小批量是 500 件。",
+   "id": "lot size"
+  },
+  {
+   "word": "pallet jack",
+   "type": "meaning",
+   "prompt": "pallet jack (n.)",
+   "options": [
+    "貨櫃",
+    "手動棧板車",
+    "報價單",
+    "發票"
+   ],
+   "answer": 1,
+   "example": "Please use a pallet jack to move the cartons.",
+   "exampleZh": "請用手動棧板車搬運紙箱。",
+   "id": "pallet jack"
+  },
+  {
+   "word": "freight forwarder",
+   "type": "meaning",
+   "prompt": "freight forwarder (n.)",
+   "options": [
+    "採購員",
+    "貨運承攬業者",
+    "銀行",
+    "品管人員"
+   ],
+   "answer": 1,
+   "example": "Our freight forwarder will book the vessel.",
+   "exampleZh": "我們的貨運承攬商會訂船位。",
+   "id": "freight forwarder"
+  },
+  {
+   "word": "shipping terms",
+   "type": "meaning",
+   "prompt": "shipping terms (n.)",
+   "options": [
+    "運送條件",
+    "付款期限",
+    "退款",
+    "產品規格"
+   ],
+   "answer": 0,
+   "example": "Please confirm the shipping terms in the quote.",
+   "exampleZh": "請在報價中確認運送條件。",
+   "id": "shipping terms"
+  },
+  {
+   "word": "overstock",
+   "type": "meaning",
+   "prompt": "overstock (n./v.)",
+   "options": [
+    "庫存過多",
+    "缺貨",
+    "折扣",
+    "延遲"
+   ],
+   "answer": 0,
+   "example": "We have an overstock of packing tape.",
+   "exampleZh": "我們的封箱膠帶庫存過多。",
+   "id": "overstock"
+  },
+  {
+   "word": "authorize",
+   "type": "meaning",
+   "prompt": "authorize (v.)",
+   "options": [
+    "取消",
+    "授權、批准",
+    "退回",
+    "運送"
+   ],
+   "answer": 1,
+   "example": "Who can authorize this purchase?",
+   "exampleZh": "誰可以批准這筆採購？",
+   "id": "authorize"
+  },
+  {
+   "word": "itemized",
+   "type": "meaning",
+   "prompt": "itemized invoice 中的 itemized",
+   "options": [
+    "逐項列出的",
+    "破損的",
+    "緊急的",
+    "過期的"
+   ],
+   "answer": 0,
+   "example": "Please send an itemized invoice.",
+   "exampleZh": "請寄逐項列明的發票。",
+   "id": "itemized"
+  },
+  {
+   "word": "phrase:we need to adjust the order",
+   "type": "phrase",
+   "prompt": "情境：你想告訴廠商要修改訂單數量，最自然的說法是？",
+   "options": [
+    "We need adjust order quantity.",
+    "We needs adjust the quantity.",
+    "We need to adjust the order quantity.",
+    "We need to adjusting the quantity order."
+   ],
+   "answer": 2,
+   "example": "We need to adjust the order quantity.",
+   "exampleZh": "我們需要調整訂單數量。",
+   "id": "phrase:we need to adjust the order"
+  },
+  {
+   "word": "phrase:could you give me an update",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商更新出貨進度，最自然的說法是？",
+   "options": [
+    "Could you give me an update on the shipment?",
+    "You give update shipment?",
+    "Could you giving me update of shipment?",
+    "Can you update me shipment status for?"
+   ],
+   "answer": 0,
+   "example": "Could you give me an update on the shipment?",
+   "exampleZh": "可以請你更新一下出貨進度嗎？",
+   "id": "phrase:could you give me an update"
+  },
+  {
+   "word": "phrase:i'm sorry to hear that",
+   "type": "phrase",
+   "prompt": "情境：廠商說貨物在海關被扣，你想表達遺憾並詢問，最自然的說法是？",
+   "options": [
+    "I'm sorry hearing that. How long delay will be?",
+    "I'm sorry to hear that. How long will the delay be?",
+    "I sorry hear it. How long wait?",
+    "Sorry hear that. What delay long?"
+   ],
+   "answer": 1,
+   "example": "I'm sorry to hear that. How long will the delay be?",
+   "exampleZh": "很遺憾聽到這件事。會延遲多久呢？",
+   "id": "phrase:i'm sorry to hear that"
+  }
+ ]
+}
