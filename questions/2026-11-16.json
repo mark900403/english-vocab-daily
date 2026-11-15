@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-16",
+ "questions": [
+  {
+   "word": "forklift",
+   "type": "meaning",
+   "prompt": "forklift (n.)",
+   "options": [
+    "堆高機",
+    "貨櫃",
+    "發票",
+    "棧板秤"
+   ],
+   "answer": 0,
+   "example": "The forklift is loading the truck.",
+   "exampleZh": "堆高機正在裝貨上車。",
+   "id": "forklift"
+  },
+  {
+   "word": "indemnity",
+   "type": "meaning",
+   "prompt": "indemnity (n.)",
+   "options": [
+    "賠償保障",
+    "運費",
+    "包裝",
+    "折扣"
+   ],
+   "answer": 0,
+   "example": "The contract includes an indemnity clause.",
+   "exampleZh": "合約包含賠償條款。",
+   "id": "indemnity"
+  },
+  {
+   "word": "carrier",
+   "type": "meaning",
+   "prompt": "carrier (n.)",
+   "options": [
+    "樣品",
+    "買家",
+    "保固",
+    "承運商"
+   ],
+   "answer": 3,
+   "example": "Which carrier will pick up the goods?",
+   "exampleZh": "哪家承運商會來取貨？",
+   "id": "carrier"
+  },
+  {
+   "word": "perishable",
+   "type": "meaning",
+   "prompt": "perishable (n.)",
+   "options": [
+    "超重的",
+    "易腐壞的",
+    "易碎的",
+    "過期的合約"
+   ],
+   "answer": 1,
+   "example": "Perishable goods need cold storage.",
+   "exampleZh": "易腐壞的貨物需要冷藏。",
+   "id": "perishable"
+  },
+  {
+   "word": "fragile",
+   "type": "meaning",
+   "prompt": "fragile (n.)",
+   "options": [
+    "昂貴的",
+    "免稅的",
+    "緊急的",
+    "易碎的"
+   ],
+   "answer": 3,
+   "example": "Please mark the box as fragile.",
+   "exampleZh": "請在箱子上標示易碎。",
+   "id": "fragile"
+  },
+  {
+   "word": "amend",
+   "type": "meaning",
+   "prompt": "amend (n.)",
+   "options": [
+    "修改",
+    "拒絕",
+    "付款",
+    "運送"
+   ],
+   "answer": 0,
+   "example": "We need to amend the purchase order.",
+   "exampleZh": "我們需要修改採購單。",
+   "id": "amend"
+  },
+  {
+   "word": "clarify",
+   "type": "meaning",
+   "prompt": "clarify (n.)",
+   "options": [
+    "釐清",
+    "取消",
+    "加速",
+    "退款"
+   ],
+   "answer": 0,
+   "example": "Could you clarify the delivery terms?",
+   "exampleZh": "你可以釐清交貨條件嗎？",
+   "id": "clarify"
+  },
+  {
+   "word": "phrase:we haven't heard back from you",
+   "type": "phrase",
+   "prompt": "情境：你寄信給廠商但沒收到回覆，想催一下，最自然的說法是？",
+   "options": [
+    "We haven't heard back from you yet.",
+    "We not heard back from you.",
+    "We didn't heard back from you yet.",
+    "We haven't hear back from you."
+   ],
+   "answer": 0,
+   "example": "We haven't heard back from you yet.",
+   "exampleZh": "我們還沒收到你的回覆。",
+   "id": "phrase:we haven't heard back from you"
+  },
+  {
+   "word": "phrase:could you offer a discount",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商給大量訂購的折扣，最自然的說法是？",
+   "options": [
+    "Could you offer a discount for a large order?",
+    "Could you offer discount of large order?",
+    "Can you offers a discount large order?",
+    "Could you offering discount for large order?"
+   ],
+   "answer": 0,
+   "example": "Could you offer a discount for a large order?",
+   "exampleZh": "大量訂購可以給折扣嗎？",
+   "id": "phrase:could you offer a discount"
+  },
+  {
+   "word": "phrase:can you check the stock",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商查一下庫存，最自然的說法是？",
+   "options": [
+    "Can you check stock of we?",
+    "Can you checking the stock for us?",
+    "Can you check the stock for us?",
+    "Can you checks stock to us?"
+   ],
+   "answer": 2,
+   "example": "Can you check the stock for us?",
+   "exampleZh": "你可以幫我們查一下庫存嗎？",
+   "id": "phrase:can you check the stock"
+  }
+ ]
+}
