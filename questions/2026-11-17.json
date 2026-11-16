@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-17",
+ "questions": [
+  {
+   "word": "prepay",
+   "type": "meaning",
+   "prompt": "prepay (v.)",
+   "options": [
+    "預付",
+    "退款",
+    "報價",
+    "拒收"
+   ],
+   "answer": 0,
+   "example": "We need to prepay before the vendor ships.",
+   "exampleZh": "出貨前我們需要先預付款項。",
+   "id": "prepay"
+  },
+  {
+   "word": "crate",
+   "type": "meaning",
+   "prompt": "crate (n.)",
+   "options": [
+    "發票",
+    "關稅",
+    "樣品",
+    "木箱"
+   ],
+   "answer": 3,
+   "example": "The machine parts came in a wooden crate.",
+   "exampleZh": "機器零件裝在木箱裡。",
+   "id": "crate"
+  },
+  {
+   "word": "outbound",
+   "type": "meaning",
+   "prompt": "outbound shipment (adj.)",
+   "options": [
+    "入庫的",
+    "延遲的",
+    "損壞的",
+    "出貨的／外送的"
+   ],
+   "answer": 3,
+   "example": "The outbound shipment leaves today.",
+   "exampleZh": "出貨的貨物今天出發。",
+   "id": "outbound"
+  },
+  {
+   "word": "lot number",
+   "type": "meaning",
+   "prompt": "lot number (n.)",
+   "options": [
+    "櫃號",
+    "電話號碼",
+    "發票號碼",
+    "批號"
+   ],
+   "answer": 3,
+   "example": "Please include the lot number on the label.",
+   "exampleZh": "請在標籤上註明批號。",
+   "id": "lot number"
+  },
+  {
+   "word": "dock",
+   "type": "meaning",
+   "prompt": "loading dock (n.)",
+   "options": [
+    "停車場",
+    "裝卸碼頭／月台",
+    "辦公室",
+    "倉庫鑰匙"
+   ],
+   "answer": 1,
+   "example": "The truck is waiting at the loading dock.",
+   "exampleZh": "卡車正在裝卸月台等候。",
+   "id": "dock"
+  },
+  {
+   "word": "lump sum",
+   "type": "meaning",
+   "prompt": "lump sum (n.)",
+   "options": [
+    "一次付清的總額",
+    "利息",
+    "折扣",
+    "單價"
+   ],
+   "answer": 0,
+   "example": "The vendor asked for a lump sum payment.",
+   "exampleZh": "廠商要求一次付清。",
+   "id": "lump sum"
+  },
+  {
+   "word": "inbound",
+   "type": "meaning",
+   "prompt": "inbound shipment (adj.)",
+   "options": [
+    "出貨的",
+    "延遲的",
+    "入庫的／進貨的",
+    "損壞的"
+   ],
+   "answer": 2,
+   "example": "The inbound shipment arrives tomorrow.",
+   "exampleZh": "進貨的貨物明天到。",
+   "id": "inbound"
+  },
+  {
+   "word": "phrase:could you clarify the payment terms",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商說明付款條件，最自然的說法是？",
+   "options": [
+    "Could you clarifying the payment terms?",
+    "Can you clarify to the payment terms?",
+    "Could you clarified the payment terms?",
+    "Could you clarify the payment terms?"
+   ],
+   "answer": 3,
+   "example": "Could you clarify the payment terms?",
+   "exampleZh": "可以請你說明付款條件嗎？",
+   "id": "phrase:could you clarify the payment terms"
+  },
+  {
+   "word": "phrase:we are waiting for your reply",
+   "type": "phrase",
+   "prompt": "情境：你要告訴廠商你們正在等對方回覆，最自然的說法是？",
+   "options": [
+    "We waiting your reply.",
+    "We are waiting for your reply.",
+    "We are wait for your reply.",
+    "We waits for your reply."
+   ],
+   "answer": 1,
+   "example": "We are waiting for your reply.",
+   "exampleZh": "我們正在等你的回覆。",
+   "id": "phrase:we are waiting for your reply"
+  },
+  {
+   "word": "phrase:the invoice amount is incorrect",
+   "type": "phrase",
+   "prompt": "情境：你發現發票金額有誤，要告訴廠商，最自然的說法是？",
+   "options": [
+    "Invoice amount not correct is.",
+    "The invoice amount is incorrectly.",
+    "The invoice amount are incorrect.",
+    "The invoice amount is incorrect."
+   ],
+   "answer": 3,
+   "example": "The invoice amount is incorrect.",
+   "exampleZh": "發票金額不正確。",
+   "id": "phrase:the invoice amount is incorrect"
+  }
+ ]
+}
