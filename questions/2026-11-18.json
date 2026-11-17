@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-18",
+ "questions": [
+  {
+   "word": "rebate",
+   "type": "meaning",
+   "prompt": "rebate (n.)",
+   "options": [
+    "罐裝",
+    "回饋金；退佣",
+    "樣品",
+    "延遲"
+   ],
+   "answer": 1,
+   "example": "The vendor offers a rebate on large orders.",
+   "exampleZh": "廠商對大量訂單提供回饋金。",
+   "id": "rebate"
+  },
+  {
+   "word": "penalty clause",
+   "type": "meaning",
+   "prompt": "penalty clause (n.)",
+   "options": [
+    "包裝條款",
+    "付款條款",
+    "違約罰則條款",
+    "保固條款"
+   ],
+   "answer": 2,
+   "example": "The contract has a penalty clause for late delivery.",
+   "exampleZh": "合約中有延遲交貨的罰則條款。",
+   "id": "penalty clause"
+  },
+  {
+   "word": "lead buyer",
+   "type": "meaning",
+   "prompt": "lead (v.)",
+   "options": [
+    "取消",
+    "拒絕",
+    "帶領；主導",
+    "存放"
+   ],
+   "answer": 2,
+   "example": "Who will lead the negotiation with the supplier?",
+   "exampleZh": "誰來主導與供應商的談判？",
+   "id": "lead buyer"
+  },
+  {
+   "word": "tentative",
+   "type": "meaning",
+   "prompt": "tentative (adj.)",
+   "options": [
+    "免費的",
+    "破損的",
+    "暫定的",
+    "最終的"
+   ],
+   "answer": 2,
+   "example": "The delivery date is tentative.",
+   "exampleZh": "交貨日期是暫定的。",
+   "id": "tentative"
+  },
+  {
+   "word": "verify",
+   "type": "meaning",
+   "prompt": "verify (v.)",
+   "options": [
+    "延期",
+    "核實；確認",
+    "折扣",
+    "運送"
+   ],
+   "answer": 1,
+   "example": "Please verify the shipping address.",
+   "exampleZh": "請核實送貨地址。",
+   "id": "verify"
+  },
+  {
+   "word": "supplier audit",
+   "type": "meaning",
+   "prompt": "audit (n.)",
+   "options": [
+    "棧板",
+    "稽核；查核",
+    "關稅",
+    "報價"
+   ],
+   "answer": 1,
+   "example": "We will audit the supplier next month.",
+   "exampleZh": "我們下個月會對供應商進行稽核。",
+   "id": "supplier audit"
+  },
+  {
+   "word": "reliable",
+   "type": "meaning",
+   "prompt": "reliable (adj.)",
+   "options": [
+    "昂貴的",
+    "臨時的",
+    "過期的",
+    "可靠的"
+   ],
+   "answer": 3,
+   "example": "They are a reliable vendor.",
+   "exampleZh": "他們是可靠的廠商。",
+   "id": "reliable"
+  },
+  {
+   "word": "phrase:we would like to extend the deadline",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商延長期限，最自然的說法是？",
+   "options": [
+    "Could we extend the deadline by two days?",
+    "Could we extended the deadline by two days?",
+    "Could we extending the deadline by two days?",
+    "Can we extend to the deadline two days?"
+   ],
+   "answer": 0,
+   "example": "Could we extend the deadline by two days?",
+   "exampleZh": "可以讓我們把期限延長兩天嗎？",
+   "id": "phrase:we would like to extend the deadline"
+  },
+  {
+   "word": "phrase:i'm checking on the status of",
+   "type": "phrase",
+   "prompt": "情境：你想詢問訂單進度，最自然的說法是？",
+   "options": [
+    "I check on the status for our order.",
+    "I'm checking on the status of our order.",
+    "I'm checked on the status of our order.",
+    "I'm checking on status of our order."
+   ],
+   "answer": 1,
+   "example": "I'm checking on the status of our order.",
+   "exampleZh": "我想確認一下我們訂單的進度。",
+   "id": "phrase:i'm checking on the status of"
+  },
+  {
+   "word": "phrase:could you ship it by air",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商改用空運，最自然的說法是？",
+   "options": [
+    "Could you shipped it by air instead?",
+    "Could you ship it by air instead?",
+    "Could you ship it in air instead?",
+    "Could you shipping it by air instead?"
+   ],
+   "answer": 1,
+   "example": "Could you ship it by air instead?",
+   "exampleZh": "可以改用空運嗎？",
+   "id": "phrase:could you ship it by air"
+  }
+ ]
+}
