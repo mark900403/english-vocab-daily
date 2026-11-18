@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-19",
+ "questions": [
+  {
+   "word": "lead-time commitment",
+   "type": "meaning",
+   "prompt": "commitment (n.)",
+   "options": [
+    "抱怨",
+    "包裝",
+    "折扣",
+    "承諾；保證"
+   ],
+   "answer": 3,
+   "example": "The supplier made a commitment to ship within ten days.",
+   "exampleZh": "供應商承諾十天內出貨。",
+   "id": "lead-time commitment"
+  },
+  {
+   "word": "pallet label",
+   "type": "meaning",
+   "prompt": "label (n.)",
+   "options": [
+    "標籤",
+    "合約",
+    "稅金",
+    "倉庫"
+   ],
+   "answer": 0,
+   "example": "Please put a label on each pallet.",
+   "exampleZh": "請在每個棧板上貼標籤。",
+   "id": "pallet label"
+  },
+  {
+   "word": "on backorder",
+   "type": "meaning",
+   "prompt": "backordered (adj.)",
+   "options": [
+    "免費的",
+    "已付款的",
+    "已損壞的",
+    "缺貨待補的"
+   ],
+   "answer": 3,
+   "example": "The item is backordered until next month.",
+   "exampleZh": "此商品缺貨，要等到下個月。",
+   "id": "on backorder"
+  },
+  {
+   "word": "freight quote",
+   "type": "meaning",
+   "prompt": "freight (n.)",
+   "options": [
+    "保證",
+    "發票",
+    "樣品",
+    "貨運；運費"
+   ],
+   "answer": 3,
+   "example": "Please send me a freight quote to Busan.",
+   "exampleZh": "請給我到釜山的運費報價。",
+   "id": "freight quote"
+  },
+  {
+   "word": "itemize",
+   "type": "meaning",
+   "prompt": "itemize (v.)",
+   "options": [
+    "延後",
+    "退款",
+    "取消",
+    "逐項列出"
+   ],
+   "answer": 3,
+   "example": "Please itemize the charges on the invoice.",
+   "exampleZh": "請在發票上逐項列出費用。",
+   "id": "itemize"
+  },
+  {
+   "word": "shipment tracking",
+   "type": "meaning",
+   "prompt": "tracking (n.)",
+   "options": [
+    "拒絕",
+    "估價",
+    "追蹤",
+    "包裝"
+   ],
+   "answer": 2,
+   "example": "Shipment tracking shows it is still in transit.",
+   "exampleZh": "貨件追蹤顯示仍在運送中。",
+   "id": "shipment tracking"
+  },
+  {
+   "word": "proof of delivery",
+   "type": "meaning",
+   "prompt": "proof (n.)",
+   "options": [
+    "數量",
+    "證明",
+    "價格",
+    "假期"
+   ],
+   "answer": 1,
+   "example": "We need proof of delivery before payment.",
+   "exampleZh": "付款前我們需要送達證明。",
+   "id": "proof of delivery"
+  },
+  {
+   "word": "phrase:could you confirm the shipping date",
+   "type": "phrase",
+   "prompt": "情境：你想請廠商確認出貨日期，最自然的說法是？",
+   "options": [
+    "Can you confirm to the shipping date?",
+    "Could you confirm the shipping date?",
+    "Could you confirmed the shipping date?",
+    "Could you confirming the shipping date?"
+   ],
+   "answer": 1,
+   "example": "Could you confirm the shipping date?",
+   "exampleZh": "可以請你確認出貨日期嗎？",
+   "id": "phrase:could you confirm the shipping date"
+  },
+  {
+   "word": "phrase:we would like to cancel the order",
+   "type": "phrase",
+   "prompt": "情境：你想取消訂單，最自然的說法是？",
+   "options": [
+    "We like to canceling the order.",
+    "We would like to cancel the order.",
+    "We would like cancel the order.",
+    "We would like to cancelled the order."
+   ],
+   "answer": 1,
+   "example": "We would like to cancel the order.",
+   "exampleZh": "我們想取消這張訂單。",
+   "id": "phrase:we would like to cancel the order"
+  },
+  {
+   "word": "phrase:thank you for the quick update",
+   "type": "phrase",
+   "prompt": "情境：廠商很快回報進度，你想道謝，最自然的說法是？",
+   "options": [
+    "Thank you for quick updating.",
+    "Thanks for the quickly update.",
+    "Thank you for the quick update.",
+    "Thank you to the quick update."
+   ],
+   "answer": 2,
+   "example": "Thank you for the quick update.",
+   "exampleZh": "謝謝你快速更新。",
+   "id": "phrase:thank you for the quick update"
+  }
+ ]
+}
